@@ -25,6 +25,11 @@ raw interview evidence
 
 The system may recommend. It may not decide. Humans keep final authority.
 
+The user experience is part of the DNA. A candidate can self-serve through a
+structured interview website, but the website is only the front door. Every
+interaction must feed the memory, rubric, evaluation, benchmark, faculty review,
+and retrospective loop.
+
 ## First Customer
 
 For the real school, the first customer is the faculty or admissions owner of
@@ -200,10 +205,17 @@ should preserve honest red/yellow signals.
 2. Make the mock pipeline deterministic and inspectable.
 3. Let the deep research result update rubric, governance, and benchmark
    thresholds later.
-4. For a real school, replace the mock rubric and data with school-approved
+4. Add the self-serve candidate and faculty UI around the same memory/eval
+   contract.
+5. For a real school, replace the mock rubric and data with school-approved
    criteria and de-identified records.
-5. Add richer retrieval, calibration, and longitudinal outcome checks only after
+6. Add richer retrieval, calibration, and longitudinal outcome checks only after
    the v0 memory/eval loop is stable.
+
+## User Journey Assets
+
+The self-serve application journey lives in `user_journey.md`. The UI/UX screen
+blueprint lives in `uiux_blueprint.md`.
 
 ## Deep Research Intake
 

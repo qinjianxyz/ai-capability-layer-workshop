@@ -30,7 +30,7 @@ A useful AI capability is a supervised path from allowed inputs to reviewed arti
 - `live_build_workflow_kit.md` - optional repo-backed build instructions.
 - `examples/business-school-interview-memory/` - end-to-end synthetic interview
   memory system with mock data, rubric, GBrain-style memory graph, evaluator,
-  and benchmarks.
+  benchmarks, and self-serve interview app journey.
 
 ## Data Rule
 

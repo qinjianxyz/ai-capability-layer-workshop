@@ -37,6 +37,9 @@ examples/business-school-interview-memory/generated/
 - `spec.md` - locked capability spec and scope.
 - `business_plan_and_spec.md` - product DNA, business logic, and system
   requirements.
+- `user_journey.md` - candidate, faculty, program owner, and memory steward
+  journey.
+- `uiux_blueprint.md` - core application screens and interaction standards.
 - `rubric.md` - business school interview rubric.
 - `skill_graph.md` - skill graph and workflow stages.
 - `data/mock_interviews.json` - synthetic 30-interview corpus.

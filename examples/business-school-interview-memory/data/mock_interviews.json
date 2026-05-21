@@ -1,0 +1,714 @@
+{
+  "schema_version": "business_school_interview_memory.mock_interviews.v1",
+  "candidate": {
+    "candidate_id": "CAND-JQ-001",
+    "display_name": "Workshop Candidate: Jian",
+    "data_class": "synthetic",
+    "scenario_note": "Synthetic self-evaluation scenario for a business school interview memory workshop. This is not an admissions record.",
+    "forbidden_real_data": true
+  },
+  "rubric_domains": {
+    "learning_velocity": {
+      "weight": 0.16,
+      "description": "Learns quickly, updates beliefs, and turns feedback into better execution."
+    },
+    "entrepreneurial_builder": {
+      "weight": 0.17,
+      "description": "Builds real things, finds opportunities, and acts under ambiguity."
+    },
+    "leadership_initiative": {
+      "weight": 0.13,
+      "description": "Creates direction, mobilizes others, and owns outcomes."
+    },
+    "communication_clarity": {
+      "weight": 0.12,
+      "description": "Explains tradeoffs, evidence, and decisions clearly."
+    },
+    "collaboration_maturity": {
+      "weight": 0.11,
+      "description": "Listens, shares credit, and improves team decisions."
+    },
+    "mission_fit": {
+      "weight": 0.12,
+      "description": "Understands the school, contributes to the cohort, and uses business for impact."
+    },
+    "execution_evidence": {
+      "weight": 0.11,
+      "description": "Has shipped work, measured outcomes, and persisted through hard constraints."
+    },
+    "ethical_judgment": {
+      "weight": 0.08,
+      "description": "Names risks, respects boundaries, and handles power and data responsibly."
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "INT-001",
+      "stage": "faculty",
+      "interviewer_role": "strategy professor",
+      "summary": "Candidate framed the school as a place to turn repeated tacit judgment into compounding systems.",
+      "observations": [
+        {
+          "domain": "mission_fit",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.87,
+          "text": "Connected the interview system to faculty leverage and institutional learning rather than generic AI novelty."
+        },
+        {
+          "domain": "communication_clarity",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.8,
+          "text": "Separated final human decision authority from evidence-backed recommendations."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-002",
+      "stage": "faculty",
+      "interviewer_role": "entrepreneurship professor",
+      "summary": "Candidate pushed for mocks, evals, and benchmarks before presentation polish.",
+      "observations": [
+        {
+          "domain": "entrepreneurial_builder",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.92,
+          "text": "Insisted on building an end-to-end mock system rather than stopping at a business plan."
+        },
+        {
+          "domain": "execution_evidence",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.86,
+          "text": "Defined a concrete build target: 30 mock interviews, rubric, memory, evaluation, and benchmarks."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-003",
+      "stage": "faculty",
+      "interviewer_role": "operations professor",
+      "summary": "Candidate demonstrated strong systems thinking but a tendency to widen scope quickly.",
+      "observations": [
+        {
+          "domain": "learning_velocity",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.84,
+          "text": "Immediately updated the requirement from presentation artifact to reliability and evaluation infrastructure."
+        },
+        {
+          "domain": "collaboration_maturity",
+          "polarity": "red",
+          "strength": 3,
+          "confidence": 0.72,
+          "risk_flag": "over_claiming",
+          "text": "May create large ambition faster than stakeholders can digest unless the scope is actively bounded."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-004",
+      "stage": "committee",
+      "interviewer_role": "admissions lead",
+      "summary": "Candidate was comfortable with recommendation labels while preserving human final authority.",
+      "observations": [
+        {
+          "domain": "ethical_judgment",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.83,
+          "text": "Drew a boundary between useful recommendations and automated admit/reject execution."
+        },
+        {
+          "domain": "communication_clarity",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.77,
+          "text": "Clarified that recommendations should expose evidence, confidence, and red flags."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-005",
+      "stage": "faculty",
+      "interviewer_role": "data ethics professor",
+      "summary": "Candidate treated evaluation as auditable infrastructure instead of opaque scoring.",
+      "observations": [
+        {
+          "domain": "ethical_judgment",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.85,
+          "text": "Asked for evals, benchmarks, and reliability checks before trusting the output."
+        },
+        {
+          "domain": "execution_evidence",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.78,
+          "text": "Specified that mocks should validate the full path from raw notes to memory and recommendation."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-006",
+      "stage": "faculty",
+      "interviewer_role": "leadership professor",
+      "summary": "Candidate showed founder-like urgency and ability to redirect work toward the highest-value layer.",
+      "observations": [
+        {
+          "domain": "leadership_initiative",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.86,
+          "text": "Interrupted a premature artifact and redirected the team toward memory quality and end-to-end reliability."
+        },
+        {
+          "domain": "collaboration_maturity",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.69,
+          "text": "Correction was direct but constructive, naming the better focus and next step."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-007",
+      "stage": "faculty",
+      "interviewer_role": "product professor",
+      "summary": "Candidate distinguished decision-support value from passive information storage.",
+      "observations": [
+        {
+          "domain": "entrepreneurial_builder",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.82,
+          "text": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and recommendations."
+        },
+        {
+          "domain": "mission_fit",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.76,
+          "text": "Focused on usefulness to faculty decision-making rather than a polished archive."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-008",
+      "stage": "faculty",
+      "interviewer_role": "finance professor",
+      "summary": "Candidate could quantify system quality but did not yet define ROI metrics for the school.",
+      "observations": [
+        {
+          "domain": "communication_clarity",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.75,
+          "text": "Named benchmarkable quality dimensions such as memory reliability and eval performance."
+        },
+        {
+          "domain": "mission_fit",
+          "polarity": "missing",
+          "strength": 2,
+          "confidence": 0.68,
+          "risk_flag": "missing_core_evidence",
+          "text": "Needs a sharper business metric for Link School adoption beyond technical correctness."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-009",
+      "stage": "committee",
+      "interviewer_role": "program director",
+      "summary": "Candidate showed strong ability to make abstract AI workflow ideas concrete.",
+      "observations": [
+        {
+          "domain": "execution_evidence",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.88,
+          "text": "Converted a vague interviewing workflow into datasets, rubrics, memory databases, evals, and benchmarks."
+        },
+        {
+          "domain": "learning_velocity",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.82,
+          "text": "Used critique to sharpen implementation requirements instead of defending the first draft."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-010",
+      "stage": "faculty",
+      "interviewer_role": "organizational behavior professor",
+      "summary": "Candidate values high standards and may need norms for pacing with a mixed-experience faculty group.",
+      "observations": [
+        {
+          "domain": "collaboration_maturity",
+          "polarity": "red",
+          "strength": 3,
+          "confidence": 0.73,
+          "risk_flag": "weak_listening_signal",
+          "text": "Fast critique could overwhelm collaborators if not paired with explicit shared framing."
+        },
+        {
+          "domain": "leadership_initiative",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.81,
+          "text": "Creates momentum by naming what matters most and moving the group toward it."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-011",
+      "stage": "faculty",
+      "interviewer_role": "innovation professor",
+      "summary": "Candidate showed a strong capability-layer mental model.",
+      "observations": [
+        {
+          "domain": "entrepreneurial_builder",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.89,
+          "text": "Asked to build the capability layer itself: memory, evals, benchmarks, and mock end-to-end workflow."
+        },
+        {
+          "domain": "learning_velocity",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.8,
+          "text": "Recognized that deep research should enrich and validate after local requirements are clearer."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-012",
+      "stage": "committee",
+      "interviewer_role": "faculty reviewer",
+      "summary": "Candidate's recommendation philosophy is practical and human-centered.",
+      "observations": [
+        {
+          "domain": "ethical_judgment",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.81,
+          "text": "Accepted holistic recommendations while preserving human final decision responsibility."
+        },
+        {
+          "domain": "communication_clarity",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.78,
+          "text": "Expressed the difference between recommendation and automation in plain language."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-013",
+      "stage": "faculty",
+      "interviewer_role": "analytics professor",
+      "summary": "Candidate emphasized benchmark design, but the psychometric model remains unvalidated.",
+      "observations": [
+        {
+          "domain": "learning_velocity",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.79,
+          "text": "Wanted benchmarks that test whether the system is reliable, not just plausible."
+        },
+        {
+          "domain": "ethical_judgment",
+          "polarity": "missing",
+          "strength": 2,
+          "confidence": 0.64,
+          "risk_flag": "missing_core_evidence",
+          "text": "Needs explicit validation boundaries before using composite indices in real selection."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-014",
+      "stage": "faculty",
+      "interviewer_role": "communications professor",
+      "summary": "Candidate can be concise when redirecting, but sometimes uses dense system language.",
+      "observations": [
+        {
+          "domain": "communication_clarity",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.74,
+          "text": "Clearly named the priority shift: memory quality, evals, benchmarks, reliability."
+        },
+        {
+          "domain": "communication_clarity",
+          "polarity": "red",
+          "strength": 2,
+          "confidence": 0.67,
+          "risk_flag": "weak_listening_signal",
+          "text": "May need to translate technical architecture into faculty-friendly language more consistently."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-015",
+      "stage": "committee",
+      "interviewer_role": "dean",
+      "summary": "Candidate shows strong institutional imagination and a bias toward durable learning systems.",
+      "observations": [
+        {
+          "domain": "mission_fit",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.86,
+          "text": "Understands that the school's advantage could come from compounding faculty judgment."
+        },
+        {
+          "domain": "leadership_initiative",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.84,
+          "text": "Can identify a strategic institutional bottleneck and turn it into an operating system."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-016",
+      "stage": "faculty",
+      "interviewer_role": "entrepreneur-in-residence",
+      "summary": "Candidate appears unusually strong at building from first principles under ambiguity.",
+      "observations": [
+        {
+          "domain": "entrepreneurial_builder",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.9,
+          "text": "Asked to mock the entire business school process instead of waiting for perfect real data."
+        },
+        {
+          "domain": "execution_evidence",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.81,
+          "text": "Defined enough structure for immediate implementation: rubric, memory database, evals, and end-to-end run."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-017",
+      "stage": "faculty",
+      "interviewer_role": "systems professor",
+      "summary": "Candidate thinks in feedback loops and reliability gates.",
+      "observations": [
+        {
+          "domain": "learning_velocity",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.88,
+          "text": "Placed deep research after local requirement discovery so it can validate and enrich rather than dominate."
+        },
+        {
+          "domain": "execution_evidence",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.8,
+          "text": "Requested evals and benchmarks as first-class artifacts."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-018",
+      "stage": "committee",
+      "interviewer_role": "student experience lead",
+      "summary": "Candidate's intensity could be a positive cohort contribution if paired with humility.",
+      "observations": [
+        {
+          "domain": "collaboration_maturity",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.71,
+          "text": "Engages directly with feedback and changes course when the critique is valid."
+        },
+        {
+          "domain": "collaboration_maturity",
+          "polarity": "red",
+          "strength": 2,
+          "confidence": 0.66,
+          "risk_flag": "poor_team_maturity",
+          "text": "May need explicit cohort norms around pacing, listening, and shared ownership."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-019",
+      "stage": "faculty",
+      "interviewer_role": "governance professor",
+      "summary": "Candidate is alert to governance but needs to keep useful recommendations in scope.",
+      "observations": [
+        {
+          "domain": "ethical_judgment",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.82,
+          "text": "Recognizes that human final authority and auditability are the core boundary."
+        },
+        {
+          "domain": "entrepreneurial_builder",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.74,
+          "text": "Pushed past excessive caution toward a more useful recommendation product."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-020",
+      "stage": "faculty",
+      "interviewer_role": "marketing professor",
+      "summary": "Candidate has a clear narrative about usefulness but has not yet named the buyer story fully.",
+      "observations": [
+        {
+          "domain": "mission_fit",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.73,
+          "text": "Frames the work as helping faculty avoid starting from scratch."
+        },
+        {
+          "domain": "communication_clarity",
+          "polarity": "missing",
+          "strength": 2,
+          "confidence": 0.62,
+          "risk_flag": "missing_core_evidence",
+          "text": "Needs clearer buyer-facing value narrative after the technical mock works."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-021",
+      "stage": "committee",
+      "interviewer_role": "program operations lead",
+      "summary": "Candidate sees implementation details that determine reliability.",
+      "observations": [
+        {
+          "domain": "execution_evidence",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.87,
+          "text": "Asked to build mock databases and run the process end to end."
+        },
+        {
+          "domain": "leadership_initiative",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.79,
+          "text": "Set a concrete next milestone for the team rather than leaving the idea abstract."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-022",
+      "stage": "faculty",
+      "interviewer_role": "strategy professor",
+      "summary": "Candidate is strong on compounding advantage and differentiated workflows.",
+      "observations": [
+        {
+          "domain": "mission_fit",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.79,
+          "text": "Understands that reusable interview memory can become a school-specific capability."
+        },
+        {
+          "domain": "entrepreneurial_builder",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.82,
+          "text": "Recognizes that the product should not be another reading surface, but an active evaluation system."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-023",
+      "stage": "faculty",
+      "interviewer_role": "research methods professor",
+      "summary": "Candidate's benchmark instinct is strong, with unresolved validity-study design.",
+      "observations": [
+        {
+          "domain": "learning_velocity",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.8,
+          "text": "Separated local mock evals from later deep research validation."
+        },
+        {
+          "domain": "ethical_judgment",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.75,
+          "text": "Did not overclaim that composite indices are validated admissions science."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-024",
+      "stage": "committee",
+      "interviewer_role": "faculty interviewer",
+      "summary": "Candidate's strongest signal is builder energy tied to system-level thinking.",
+      "observations": [
+        {
+          "domain": "entrepreneurial_builder",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.88,
+          "text": "Repeatedly turns conceptual requirements into buildable systems with tests."
+        },
+        {
+          "domain": "leadership_initiative",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.79,
+          "text": "Willing to call out when the current work is optimizing the wrong layer."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-025",
+      "stage": "faculty",
+      "interviewer_role": "career development lead",
+      "summary": "Candidate can translate self-evaluation into concrete growth areas.",
+      "observations": [
+        {
+          "domain": "collaboration_maturity",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.77,
+          "text": "Accepted that requirements need to be nailed down before the plan is trusted."
+        },
+        {
+          "domain": "learning_velocity",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.78,
+          "text": "Uses critique as fuel for a better system rather than as a threat."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-026",
+      "stage": "committee",
+      "interviewer_role": "admissions operations",
+      "summary": "Candidate's process instincts align with operationalizing faculty judgment.",
+      "observations": [
+        {
+          "domain": "execution_evidence",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.8,
+          "text": "Demanded mock artifacts that can be inspected and rerun."
+        },
+        {
+          "domain": "communication_clarity",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.72,
+          "text": "The desired output is clear enough to implement: evidence, domains, composite index, recommendation."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-027",
+      "stage": "faculty",
+      "interviewer_role": "ethics reviewer",
+      "summary": "Candidate balances usefulness and governance after calibration.",
+      "observations": [
+        {
+          "domain": "ethical_judgment",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.81,
+          "text": "The final boundary is useful recommendation plus transparent evidence, not automation."
+        },
+        {
+          "domain": "mission_fit",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.72,
+          "text": "Shows interest in making faculty decisions more reliable, not replacing faculty."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-028",
+      "stage": "committee",
+      "interviewer_role": "peer interviewer",
+      "summary": "Candidate would likely raise the technical ambition of the cohort.",
+      "observations": [
+        {
+          "domain": "leadership_initiative",
+          "polarity": "green",
+          "strength": 4,
+          "confidence": 0.78,
+          "text": "Pushes peers toward higher standards and more concrete proof."
+        },
+        {
+          "domain": "collaboration_maturity",
+          "polarity": "missing",
+          "strength": 2,
+          "confidence": 0.61,
+          "risk_flag": "missing_core_evidence",
+          "text": "Need more evidence on how the candidate behaves in slower group settings."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-029",
+      "stage": "faculty",
+      "interviewer_role": "capstone advisor",
+      "summary": "Candidate has unusually strong capstone potential if scoped properly.",
+      "observations": [
+        {
+          "domain": "execution_evidence",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.86,
+          "text": "Can define and pressure-test an ambitious capstone-like system quickly."
+        },
+        {
+          "domain": "collaboration_maturity",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.7,
+          "text": "Would benefit from a faculty sponsor who helps sequence ambition into milestones."
+        }
+      ]
+    },
+    {
+      "interview_id": "INT-030",
+      "stage": "committee",
+      "interviewer_role": "final committee chair",
+      "summary": "Overall evidence supports a strong recommendation with explicit discussion of pacing and collaboration risks.",
+      "observations": [
+        {
+          "domain": "mission_fit",
+          "polarity": "green",
+          "strength": 5,
+          "confidence": 0.84,
+          "text": "Candidate fits a school that values building, reflection, and practical AI capability design."
+        },
+        {
+          "domain": "collaboration_maturity",
+          "polarity": "green",
+          "strength": 3,
+          "confidence": 0.72,
+          "text": "Risks are real but coachable: pacing, translation, and shared ownership."
+        }
+      ]
+    }
+  ]
+}

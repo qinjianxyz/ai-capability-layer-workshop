@@ -1,0 +1,227 @@
+{
+  "candidate_id": "CAND-JQ-001",
+  "composite_index": 78.0,
+  "data_class": "synthetic",
+  "domain_indices": {
+    "collaboration_maturity": {
+      "confidence": 0.7,
+      "evidence_count": 9,
+      "green_count": 5,
+      "index": 57.3,
+      "missing_count": 1,
+      "red_count": 3,
+      "weight": 0.11
+    },
+    "communication_clarity": {
+      "confidence": 0.73,
+      "evidence_count": 8,
+      "green_count": 6,
+      "index": 71.0,
+      "missing_count": 1,
+      "red_count": 1,
+      "weight": 0.12
+    },
+    "entrepreneurial_builder": {
+      "confidence": 0.85,
+      "evidence_count": 7,
+      "green_count": 7,
+      "index": 88.2,
+      "missing_count": 0,
+      "red_count": 0,
+      "weight": 0.17
+    },
+    "ethical_judgment": {
+      "confidence": 0.79,
+      "evidence_count": 7,
+      "green_count": 6,
+      "index": 82.6,
+      "missing_count": 1,
+      "red_count": 0,
+      "weight": 0.08
+    },
+    "execution_evidence": {
+      "confidence": 0.83,
+      "evidence_count": 8,
+      "green_count": 8,
+      "index": 87.6,
+      "missing_count": 0,
+      "red_count": 0,
+      "weight": 0.11
+    },
+    "leadership_initiative": {
+      "confidence": 0.81,
+      "evidence_count": 6,
+      "green_count": 6,
+      "index": 85.3,
+      "missing_count": 0,
+      "red_count": 0,
+      "weight": 0.13
+    },
+    "learning_velocity": {
+      "confidence": 0.82,
+      "evidence_count": 7,
+      "green_count": 7,
+      "index": 85.1,
+      "missing_count": 0,
+      "red_count": 0,
+      "weight": 0.16
+    },
+    "mission_fit": {
+      "confidence": 0.78,
+      "evidence_count": 8,
+      "green_count": 7,
+      "index": 83.4,
+      "missing_count": 1,
+      "red_count": 0,
+      "weight": 0.12
+    }
+  },
+  "forbidden_labels_used": [],
+  "green_flags": [
+    {
+      "confidence": 0.92,
+      "domain": "entrepreneurial_builder",
+      "risk_flag": null,
+      "source_interview_id": "INT-002",
+      "text": "Insisted on building an end-to-end mock system rather than stopping at a business plan."
+    },
+    {
+      "confidence": 0.9,
+      "domain": "entrepreneurial_builder",
+      "risk_flag": null,
+      "source_interview_id": "INT-016",
+      "text": "Asked to mock the entire business school process instead of waiting for perfect real data."
+    },
+    {
+      "confidence": 0.89,
+      "domain": "entrepreneurial_builder",
+      "risk_flag": null,
+      "source_interview_id": "INT-011",
+      "text": "Asked to build the capability layer itself: memory, evals, benchmarks, and mock end-to-end workflow."
+    },
+    {
+      "confidence": 0.88,
+      "domain": "execution_evidence",
+      "risk_flag": null,
+      "source_interview_id": "INT-009",
+      "text": "Converted a vague interviewing workflow into datasets, rubrics, memory databases, evals, and benchmarks."
+    },
+    {
+      "confidence": 0.88,
+      "domain": "learning_velocity",
+      "risk_flag": null,
+      "source_interview_id": "INT-017",
+      "text": "Placed deep research after local requirement discovery so it can validate and enrich rather than dominate."
+    },
+    {
+      "confidence": 0.88,
+      "domain": "entrepreneurial_builder",
+      "risk_flag": null,
+      "source_interview_id": "INT-024",
+      "text": "Repeatedly turns conceptual requirements into buildable systems with tests."
+    },
+    {
+      "confidence": 0.87,
+      "domain": "mission_fit",
+      "risk_flag": null,
+      "source_interview_id": "INT-001",
+      "text": "Connected the interview system to faculty leverage and institutional learning rather than generic AI novelty."
+    },
+    {
+      "confidence": 0.87,
+      "domain": "execution_evidence",
+      "risk_flag": null,
+      "source_interview_id": "INT-021",
+      "text": "Asked to build mock databases and run the process end to end."
+    },
+    {
+      "confidence": 0.86,
+      "domain": "execution_evidence",
+      "risk_flag": null,
+      "source_interview_id": "INT-002",
+      "text": "Defined a concrete build target: 30 mock interviews, rubric, memory, evaluation, and benchmarks."
+    },
+    {
+      "confidence": 0.86,
+      "domain": "leadership_initiative",
+      "risk_flag": null,
+      "source_interview_id": "INT-006",
+      "text": "Interrupted a premature artifact and redirected the team toward memory quality and end-to-end reliability."
+    }
+  ],
+  "missing_evidence": [
+    {
+      "confidence": 0.68,
+      "domain": "mission_fit",
+      "risk_flag": "missing_core_evidence",
+      "source_interview_id": "INT-008",
+      "text": "Needs a sharper business metric for Link School adoption beyond technical correctness."
+    },
+    {
+      "confidence": 0.64,
+      "domain": "ethical_judgment",
+      "risk_flag": "missing_core_evidence",
+      "source_interview_id": "INT-013",
+      "text": "Needs explicit validation boundaries before using composite indices in real selection."
+    },
+    {
+      "confidence": 0.62,
+      "domain": "communication_clarity",
+      "risk_flag": "missing_core_evidence",
+      "source_interview_id": "INT-020",
+      "text": "Needs clearer buyer-facing value narrative after the technical mock works."
+    },
+    {
+      "confidence": 0.61,
+      "domain": "collaboration_maturity",
+      "risk_flag": "missing_core_evidence",
+      "source_interview_id": "INT-028",
+      "text": "Need more evidence on how the candidate behaves in slower group settings."
+    }
+  ],
+  "penalties": {
+    "contradiction_count": 2,
+    "high_red_count": 2,
+    "penalty_points": 2.8
+  },
+  "recommendation": "recommend",
+  "recommendation_confidence": 0.79,
+  "recommended_committee_questions": [
+    "How should the committee weigh exceptional builder signal against pacing and collaboration risks?",
+    "What evidence would show the candidate can translate technical ambition for a mixed-experience cohort?",
+    "Which faculty mentor or structure would help sequence ambition into scoped milestones?",
+    "What real-school outcome should validate whether this candidate's systems mindset creates cohort value?"
+  ],
+  "red_flags": [
+    {
+      "confidence": 0.73,
+      "domain": "collaboration_maturity",
+      "risk_flag": "weak_listening_signal",
+      "source_interview_id": "INT-010",
+      "text": "Fast critique could overwhelm collaborators if not paired with explicit shared framing."
+    },
+    {
+      "confidence": 0.72,
+      "domain": "collaboration_maturity",
+      "risk_flag": "over_claiming",
+      "source_interview_id": "INT-003",
+      "text": "May create large ambition faster than stakeholders can digest unless the scope is actively bounded."
+    },
+    {
+      "confidence": 0.67,
+      "domain": "communication_clarity",
+      "risk_flag": "weak_listening_signal",
+      "source_interview_id": "INT-014",
+      "text": "May need to translate technical architecture into faculty-friendly language more consistently."
+    },
+    {
+      "confidence": 0.66,
+      "domain": "collaboration_maturity",
+      "risk_flag": "poor_team_maturity",
+      "source_interview_id": "INT-018",
+      "text": "May need explicit cohort norms around pacing, listening, and shared ownership."
+    }
+  ],
+  "schema_version": "candidate_evaluation.v1",
+  "weighted_index_before_penalty": 80.8
+}

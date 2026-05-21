@@ -23,3 +23,9 @@
 - Interview synthesis: theme map, evidence quotes, unknowns, follow-up questions.
 - Career preparation: role-specific practice plan, portfolio review, interview drills, follow-up tasks.
 - Research supervision: hypothesis tracker, reading plan, evidence quality rubric, next experiment memo.
+
+## Decision Support And Memory Systems
+
+- Interview memory OS: turn recurring business school interviews into raw
+  evidence, canonical memory, domain indices, holistic recommendations, and
+  benchmarked committee review packets.

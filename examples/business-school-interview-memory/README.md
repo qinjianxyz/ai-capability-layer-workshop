@@ -19,6 +19,19 @@ evidence, and provenance back to interview notes.
   questions.
 - Eval checks for provenance, domain coverage, data boundaries, and expected
   recommendation behavior.
+- A self-serve candidate journey and faculty review UX blueprint.
+
+## How The Team Should Use This Example
+
+1. Read `session_history_2026-05-21.md` to see how the workshop requirements
+   evolved.
+2. Read `business_plan_and_spec.md` for the system DNA.
+3. Read `user_journey.md` and `uiux_blueprint.md` for how candidates, faculty,
+   program owners, and memory stewards interact with the system.
+4. Run the pipeline.
+5. Inspect the generated candidate packet and eval report.
+6. Replace the mock rubric with the school's actual criteria only after the
+   team agrees on governance and data boundaries.
 
 ## Run
 
@@ -37,6 +50,8 @@ examples/business-school-interview-memory/generated/
 - `spec.md` - locked capability spec and scope.
 - `business_plan_and_spec.md` - product DNA, business logic, and system
   requirements.
+- `session_history_2026-05-21.md` - public-safe export of the workshop build
+  session.
 - `user_journey.md` - candidate, faculty, program owner, and memory steward
   journey.
 - `uiux_blueprint.md` - core application screens and interaction standards.

@@ -4,6 +4,37 @@ Public companion repo for the workshop **Designing Agentic Capability Layers**.
 
 The workshop helps staff and faculty design supervised AI workflows for operations, research, teaching, and mentoring. The practical output is a workflow candidate with a capability sentence, context pack, memory boundary, skill graph, harness/review plan, and 30-day pilot path.
 
+## How To Use This Repo With A Team
+
+Use this repo as a shared workshop workbook, not as a finished product. The team
+should read one example, discuss the scope and governance boundary, run the
+mock, then replace synthetic assumptions with the school's real criteria only
+after review.
+
+Suggested team flow:
+
+1. Start with the business school example:
+   `examples/business-school-interview-memory/`.
+2. Read the session history to understand how the requirements evolved:
+   `examples/business-school-interview-memory/session_history_2026-05-21.md`.
+3. Read the system DNA:
+   `examples/business-school-interview-memory/business_plan_and_spec.md`.
+4. Read the candidate and faculty journey:
+   `examples/business-school-interview-memory/user_journey.md`.
+5. Read the UI/UX blueprint:
+   `examples/business-school-interview-memory/uiux_blueprint.md`.
+6. Run the mock pipeline and inspect the generated candidate packet.
+7. Use the worksheet and pilot template to adapt the pattern to a real workflow.
+
+The repo is meant to help a team ask better questions:
+
+- What inputs are allowed?
+- What memory should accumulate?
+- What skills and review gates are needed?
+- What benchmarks prove reliability?
+- What should humans decide?
+- What should the system never automate?
+
 ## Start Here
 
 1. Read `cheatsheet.md`.

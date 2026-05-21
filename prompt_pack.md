@@ -1,51 +1,39 @@
 # Prompt Pack
 
-## Capability Spec Prompt
+## Capability Spec
 
 ```text
-Help me design a supervised AI capability for this workflow:
-[describe workflow]
+You are helping a business school team design a supervised AI workflow. Use only the synthetic context provided. Do not assume access to email, calendar, student records, partner records, or internal systems.
 
-Return:
-1. capability name
-2. owner and audience
-3. trigger
-4. allowed inputs
-5. inputs to keep out
-6. required artifacts
-7. tool boundary
-8. human review gate
-9. stop criteria
-10. 30-day success measure
-
-Use concrete language. Separate facts, assumptions, and open questions.
+Return a capability spec with trigger, goal, allowed inputs, prohibited inputs, steps, tools, context needed, reusable skills, human approval points, outputs, risks, success metrics, and stop criteria.
 ```
 
-## Five Checks Prompt
+## Context And Memory Plan
 
 ```text
-For the capability below, write five acceptance checks before generating output.
-
-Capability:
-[paste spec]
-
-Checks must cover factual support, source quality, privacy/data boundary, usefulness for the intended audience, and human approval. Return the checks as a rubric with Pass / Needs revision / Stop.
+Using the capability spec, create a context and memory plan. Separate public/synthetic, internal low-risk, confidential, and prohibited material. Then propose what should be stored as memory, retrieved each run, linked in a graph, ignored, and checked for freshness.
 ```
 
-## Artifact Chain Prompt
+## Staff Artifact
 
 ```text
-Using the workflow spec, produce four draft artifacts:
-1. partnership briefing memo
-2. 30-minute teaching mini-case
-3. operations checklist with owners and deadlines
-4. governance note with allowed, caution, and keep-out data classes
-
-For each artifact, separate facts, assumptions, unknowns, and required human review.
+Create a one-page partnership briefing memo for staff. Include opportunity, stakeholder fit, likely value, operational work required, risks and unknowns, recommended next steps, and human review checklist. Separate facts, assumptions, unknowns, and decisions needed.
 ```
 
-## Skill Packaging Prompt
+## Faculty Artifact
 
 ```text
-Package this workflow as a reusable skill. Include when to use, required inputs, inputs to keep out, step-by-step procedure, output format, human review checklist, common failure modes, and one example invocation.
+Turn the same scenario into a 30-minute classroom mini-case with learning objectives, case setup, discussion questions, student exercise, assessment rubric, and instructor notes. Teach capability design: context, tools, memory, skills, review gates, and responsible use.
+```
+
+## Skill File
+
+```text
+Create a skill file for this workflow. Include when to use, required inputs, steps, output format, human review checklist, common failure modes, escalation conditions, and example invocation.
+```
+
+## Governance Review
+
+```text
+Review the artifacts as a cautious workflow owner. Return factual claims to verify, assumptions to label, missing context, privacy risks, tone or commitment risks, required approvals, revision instructions, and pass / revise / stop recommendation.
 ```

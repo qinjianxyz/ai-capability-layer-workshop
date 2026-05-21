@@ -1,58 +1,44 @@
-# Activity Worksheet
+# Activity Worksheets
 
-## 1. Capability Sentence
+## Capability Sentence
 
-I wish our team could produce __________________ from __________________ for __________________ with __________________ review.
+Produce **__________** from **__________** for **__________** so that **__________** improves.
 
-Artifact: __________________
-Data boundary: public/synthetic / internal low-risk / confidential / keep out
+## Stack Map
 
-## 2. First Architecture
+| Layer | Your workflow |
+| --- | --- |
+| Goal | |
+| Spec | |
+| Context | |
+| Tools | |
+| Memory | |
+| Skills | |
+| Harness | |
+| Review | |
 
-- Inputs:
-- Context needed:
-- Tools needed:
-- Output artifact:
-- Human reviewer:
+## Memory Boundary
 
-## 3. Output Review
+| Question | Answer |
+| --- | --- |
+| What should be remembered? | |
+| What should be retrieved? | |
+| What should be linked in a graph? | |
+| What should be ignored? | |
+| How is freshness checked? | |
 
-- Facts:
-- Assumptions:
-- Unknowns:
-- Risks:
-- Decision: use / revise / ask / stop
+## Skill Graph
 
-## 4. Spec Skeleton
+List the procedures your workflow needs:
 
-- Owner and audience:
-- Trigger:
-- Allowed inputs:
-- Inputs to keep out:
-- Required artifacts:
-- Stop criteria:
+- Research:
+- Spec:
+- Context pack:
+- Artifact generation:
+- Review:
+- Handoff:
+- Pilot log:
 
-## 5. Five Checks
+## Pilot Score
 
-1. Quality check:
-2. Source check:
-3. Safety check:
-4. Decision check:
-5. Review check:
-
-## 6. Pilot Scoring
-
-Score 1 to 5.
-
-| Criterion | Score | Note |
-| --- | --- | --- |
-| Value | | |
-| Repeatability | | |
-| Data readiness | | |
-| Risk control | | |
-| Teaching relevance | | |
-
-Pilot candidate:
-Owner:
-30-day success measure:
-Stop criterion:
+Score 1-5: value, repeatability, context availability, reviewability, low risk, feasibility this month, teaching relevance.

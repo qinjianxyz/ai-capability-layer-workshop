@@ -1,34 +1,27 @@
 # Governance Boundary
 
-## Low-Risk Starting Zone
+## Data Classes
 
-- Synthesis from public or synthetic context.
-- Preparation checklists.
-- Teaching variants and classroom exercises.
-- Public-source research maps.
-- Internal drafts that receive human review before action.
+| Class | Examples | Live session use | Pilot condition |
+| --- | --- | --- | --- |
+| Public/synthetic | Public pages, invented examples, blank templates | Allowed | Safe starting point |
+| Internal low-risk | Approved SOPs, public course descriptions, reviewed event constraints | Use intentionally | Owner approval and review log |
+| Confidential | Student support context, grades, HR, sensitive partner details | Keep out | Formal controls and admin review |
+| External action | Email sends, calendar changes, public posts, commitments | Draft only | Human approval before action |
 
-## Caution Zone
+## Review Gate
 
-- Partner-facing drafts.
-- Advising preparation.
-- Policy interpretation.
-- Calendar or email assistance.
-- Internal operations drafts with sensitive context removed.
+Before an artifact moves forward, a human reviewer should check:
 
-## Keep-Out Zone For Early Pilots
+- Factual claims.
+- Assumptions.
+- Unknowns.
+- Data boundary.
+- Tone and implied commitments.
+- Source quality.
+- Approval owner.
+- Stop conditions.
 
-- Student personal data.
-- Grading decisions.
-- Admissions decisions.
-- HR records.
-- Confidential partner terms.
-- External sends without named approval.
+## Early Pilot Rule
 
-## Operating Rules
-
-- Consequential action requires human approval.
-- External communication requires a named reviewer.
-- Memory stores approved learning, corrections, templates, and failure modes.
-- Raw sensitive records stay out of early pilots.
-- Every pilot needs a stop criterion.
+Run the first version manually with synthetic or low-risk context. Add memory, integrations, or external actions only after the workflow has a stable context pack, review gate, and owner.

@@ -1,28 +1,25 @@
 # Use Case Library
 
-## Operations
+## Staff Operations
 
-| Workflow | Artifact chain | Review gate |
-| --- | --- | --- |
-| Partnership intake | request -> fit brief -> risk note -> meeting agenda -> follow-up draft | Owner approves external language. |
-| Event preparation | goal -> timeline -> stakeholder emails -> run sheet -> checklist | Event owner approves dates and commitments. |
-| Meeting-to-action | notes -> decisions -> task list -> SOP update -> handoff | Meeting owner confirms decisions and assignees. |
-| Internal FAQ refresh | source notes -> updated FAQ -> change log -> reviewer questions | Domain owner approves policy-sensitive answers. |
+- Event preparation packet: agenda, participant brief, logistics checklist, risks, follow-up drafts.
+- Partnership briefing: public context, stakeholder fit, open questions, operational load, next steps.
+- Meeting follow-up: notes to action items, owners, deadlines, open questions, reviewed email draft.
+- SOP refresh: repeated issues into updated checklist, FAQ, and training note.
+- Knowledge handoff: status, blockers, decisions, source links, and next owner tasks.
 
-## Faculty
+## Faculty Teaching
 
-| Workflow | Artifact chain | Review gate |
-| --- | --- | --- |
-| Mini-case builder | topic -> scenario -> objectives -> questions -> exercise -> rubric | Faculty approves framing and accuracy. |
-| Course refresh | module goal -> examples -> cases -> assignment variants -> reading questions | Instructor selects what enters the course. |
-| Student project mentor | idea -> scope -> milestones -> risk map -> feedback prompts | Advisor approves advice and next steps. |
-| Rubric assistant | assignment goals -> criteria -> levels -> feedback themes | Faculty owns final evaluation. |
+- Case generation: turn a real workflow into a classroom mini-case with discussion questions and rubric.
+- Assignment design: teach context engineering, artifact review, source boundaries, and AI governance.
+- Course prep: transform learning objectives and readings into agenda, prompts, activity plan, and assessment rubric.
+- Feedback support: draft structured feedback based on a rubric, with faculty review before students see it.
+- Simulation exercise: students design an agentic workflow and defend context, tools, memory, and review gates.
 
-## Research And Mentoring
+## Mentoring And Research
 
-| Workflow | Artifact chain | Review gate |
-| --- | --- | --- |
-| Source triage | question -> source map -> quality labels -> synthesis memo -> uncertainty list | Researcher approves claims. |
-| Deep research harvest | report -> claims table -> source list -> assumptions -> briefing note | Human checks citations and relevance. |
-| Career preparation | student goal -> options -> prep plan -> mentor questions | Mentor confirms appropriateness. |
-| Partner intelligence | public signal -> brief -> assumptions -> outreach options | Owner approves external contact. |
+- Student project scoping: project brief, milestones, risks, source plan, reviewer cadence.
+- Literature triage: source map, claim table, open questions, citations to verify.
+- Interview synthesis: theme map, evidence quotes, unknowns, follow-up questions.
+- Career preparation: role-specific practice plan, portfolio review, interview drills, follow-up tasks.
+- Research supervision: hypothesis tracker, reading plan, evidence quality rubric, next experiment memo.

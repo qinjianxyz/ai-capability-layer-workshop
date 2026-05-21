@@ -1,30 +1,38 @@
-# Live Build: Workflow Kit With A Coding Agent
+# Live Build Workflow Kit
 
-Use this with Codex, Claude Code, Copilot, or another coding agent when you want durable files instead of a conversation-only output.
+Optional coding-agent branch for Codex, Claude Code, Copilot, Gemini CLI, or similar tools.
+
+## Build Prompt
 
 ```text
-Create a workflow kit for [workflow name].
-
-Files:
+Create a folder named partnership-workflow-kit with:
+- README.md
 - capability_spec.md
-- prompt.md
-- review_checklist.md
-- reusable_skill.md
-- sample_input.md
-- sample_output.md
+- context_pack.md
+- prompt_sequence.md
+- staff_brief_template.md
+- faculty_mini_case_template.md
+- operations_checklist_template.md
+- governance_review_checklist.md
+- skill_file.md
+- pilot_log.md
 - verify_artifact.py
 
-First write verify_artifact.py so it fails unless sample_output.md includes Facts, Assumptions, Unknowns, Risks, Human Review, and Decision. Run it, show the failure, then update the sample output until it passes. Keep all examples synthetic.
+The verifier should fail when required sections are missing:
+facts, assumptions, unknowns, owner, next action, review gate, data class.
+Keep all examples synthetic.
 ```
 
-## Why This Works
+## Why Build Files
 
-- The spec defines the operating boundary.
-- The verifier makes quality visible.
-- The sample input and output create a reusable example.
-- The skill file packages the workflow for future runs.
-- The review checklist keeps consequential judgment with a person.
+Files make the workflow durable. A team can review, version, test, share, and improve the workflow without reconstructing a chat transcript.
 
-## Optional Extension
+## Suggested Verifier Checks
 
-Add `handoff.md` with objective, current state, decisions, artifacts, blockers, evidence, next action, and memory-update proposal.
+- Required sections exist.
+- Facts are separated from assumptions.
+- Unknowns are listed.
+- Data class is present.
+- Reviewer is named.
+- Next action is explicit.
+- External actions require human approval.

@@ -1,39 +1,50 @@
 # 30-Day Pilot Template
 
-## Pilot Summary
+## Pilot Name
 
 - Workflow:
 - Owner:
-- Audience:
-- Trigger:
-- Artifact chain:
-- Allowed inputs:
-- Inputs to keep out:
-- Tool path:
-- Human review gate:
-- Success measure:
-- Stop criterion:
+- Reviewer:
+- Data class:
+- Artifact:
 
-## Week 1: Choose And Bound
+## Capability Sentence
 
-Choose workflow, owner, data boundary, expected artifact chain, and review gate.
+Produce **[artifact]** from **[allowed inputs]** for **[reviewer]** so that **[decision or action]** improves.
 
-Evidence: one-page capability spec.
+## Week 1: Design
 
-## Week 2: Prototype
+- Write the capability spec.
+- Build the context pack.
+- Define memory boundary: remember, retrieve, link, ignore, refresh.
+- Draw the skill graph.
+- Define review gate and stop criteria.
 
-Build prompt, sample context, checklist, reusable skill, and one safe sample output.
+## Week 2: Manual Runs
 
-Evidence: workflow kit plus first reviewed artifact.
+Run 3-5 synthetic or low-risk cases. Log:
 
-## Week 3: Run Safe Cases
+- Time spent.
+- Output quality.
+- Missing context.
+- Reviewer burden.
+- Risk or failure patterns.
 
-Run three to five safe cases. Track revisions, reviewer time, failure modes, and usefulness.
+## Week 3: Improve
 
-Evidence: review log and updated checks.
+- Revise prompts.
+- Turn the workflow into a skill file.
+- Improve templates.
+- Add artifact checks or a lightweight verifier.
+- Refine governance boundary.
 
 ## Week 4: Decide
 
-Decide continue, narrow, expand, or stop. Package learning into memory and skill updates.
+Choose one:
 
-Evidence: pilot decision memo.
+- Continue.
+- Revise.
+- Expand.
+- Stop.
+
+Decision criteria: value, repeatability, context quality, reviewability, risk, feasibility, and teaching relevance.

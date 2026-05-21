@@ -1,27 +1,33 @@
-# AI Capability Layer Cheatsheet
+# Agentic Capability Layer Cheat Sheet
 
-Core pattern:
+## Capability Sentence
 
-```text
-goal -> spec -> checks -> context -> tools -> artifacts -> review -> memory -> skill
-```
+Produce **[artifact]** from **[allowed inputs]** for **[reviewer]** so that **[decision or action]** improves.
 
-A workflow is ready for a first AI-assisted pilot when it has:
+## Stack
 
-- A named artifact: memo, checklist, rubric, teaching case, source map, handoff, or decision packet.
-- A trigger: what starts the work.
-- Allowed inputs and kept-out inputs.
-- A source policy and example of good output.
-- Five acceptance checks.
-- A named human review gate.
-- A 30-day success measure and stop criterion.
+1. Goal: objective, done criteria, stop criteria.
+2. Spec: allowed inputs, output contract, constraints.
+3. Context: sources, examples, templates, terminology, data boundary.
+4. Tools: read, search, create, run, update, send.
+5. Memory: approved decisions, reusable context, prior corrections.
+6. Skills: repeatable procedures with triggers and review checklists.
+7. Harness: state, logs, checks, receipts, recovery.
+8. Review: human approval before action.
 
-## Fast Review Gate
+## GBrain Memory Pattern
 
-Before using any generated artifact, mark:
+Import documents, chunk them, embed chunks, index text and vectors, retrieve relevant context, fuse and dedupe results, inject a context packet into the workflow, and log what was used.
 
-1. Facts: supported by provided context or cited source.
-2. Assumptions: plausible but inferred.
-3. Unknowns: require a person or trusted source.
-4. Risks: privacy, tone, authority, external impact.
-5. Decision: use, revise, ask, or stop.
+## Skill Graph Pattern
+
+Research -> spec -> context pack -> artifact generation -> review -> handoff -> pilot log.
+
+## Review Gate
+
+- What factual claims need verification?
+- What assumptions should be labeled?
+- What unknowns should be surfaced?
+- What confidential data might be exposed?
+- What external commitment might be implied?
+- Who approves the next action?

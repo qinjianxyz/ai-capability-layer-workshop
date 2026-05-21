@@ -60,7 +60,7 @@
           "polarity": "green",
           "strength": 4,
           "confidence": 0.8,
-          "text": "Separated final human decision authority from evidence-backed recommendations."
+          "text": "Separated final human decision authority from evidence-backed review guidance."
         }
       ]
     },
@@ -113,21 +113,21 @@
       "interview_id": "INT-004",
       "stage": "committee",
       "interviewer_role": "admissions lead",
-      "summary": "Candidate was comfortable with recommendation labels while preserving human final authority.",
+      "summary": "Candidate was comfortable with review-guidance labels while preserving human final authority.",
       "observations": [
         {
           "domain": "ethical_judgment",
           "polarity": "green",
           "strength": 4,
           "confidence": 0.83,
-          "text": "Drew a boundary between useful recommendations and automated admit/reject execution."
+          "text": "Drew a boundary between useful review guidance and automated admit/reject execution."
         },
         {
           "domain": "communication_clarity",
           "polarity": "green",
           "strength": 4,
           "confidence": 0.77,
-          "text": "Clarified that recommendations should expose evidence, confidence, and red flags."
+          "text": "Clarified that review guidance should expose evidence, confidence, and red flags."
         }
       ]
     },
@@ -149,7 +149,7 @@
           "polarity": "green",
           "strength": 4,
           "confidence": 0.78,
-          "text": "Specified that mocks should validate the full path from raw notes to memory and recommendation."
+          "text": "Specified that mocks should validate the full path from raw notes to memory and review guidance."
         }
       ]
     },
@@ -186,7 +186,7 @@
           "polarity": "green",
           "strength": 4,
           "confidence": 0.82,
-          "text": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and recommendations."
+          "text": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and review guidance."
         },
         {
           "domain": "mission_fit",
@@ -291,21 +291,21 @@
       "interview_id": "INT-012",
       "stage": "committee",
       "interviewer_role": "faculty reviewer",
-      "summary": "Candidate's recommendation philosophy is practical and human-centered.",
+      "summary": "Candidate's review-guidance philosophy is practical and human-centered.",
       "observations": [
         {
           "domain": "ethical_judgment",
           "polarity": "green",
           "strength": 4,
           "confidence": 0.81,
-          "text": "Accepted holistic recommendations while preserving human final decision responsibility."
+          "text": "Accepted holistic review guidance while preserving human final decision responsibility."
         },
         {
           "domain": "communication_clarity",
           "polarity": "green",
           "strength": 4,
           "confidence": 0.78,
-          "text": "Expressed the difference between recommendation and automation in plain language."
+          "text": "Expressed the difference between review guidance and automation in plain language."
         }
       ]
     },
@@ -448,7 +448,7 @@
       "interview_id": "INT-019",
       "stage": "faculty",
       "interviewer_role": "governance professor",
-      "summary": "Candidate is alert to governance but needs to keep useful recommendations in scope.",
+      "summary": "Candidate is alert to governance but needs to keep useful review guidance in scope.",
       "observations": [
         {
           "domain": "ethical_judgment",
@@ -462,7 +462,7 @@
           "polarity": "green",
           "strength": 3,
           "confidence": 0.74,
-          "text": "Pushed past excessive caution toward a more useful recommendation product."
+          "text": "Pushed past excessive caution toward a more useful review-guidance product."
         }
       ]
     },
@@ -617,7 +617,7 @@
           "polarity": "green",
           "strength": 3,
           "confidence": 0.72,
-          "text": "The desired output is clear enough to implement: evidence, domains, composite index, recommendation."
+          "text": "The desired output is clear enough to implement: evidence, domains, synthetic evidence support index, and review guidance."
         }
       ]
     },
@@ -632,7 +632,7 @@
           "polarity": "green",
           "strength": 4,
           "confidence": 0.81,
-          "text": "The final boundary is useful recommendation plus transparent evidence, not automation."
+          "text": "The final boundary is useful review guidance plus transparent evidence, not automation."
         },
         {
           "domain": "mission_fit",
@@ -692,7 +692,7 @@
       "interview_id": "INT-030",
       "stage": "committee",
       "interviewer_role": "final committee chair",
-      "summary": "Overall evidence supports a strong recommendation with explicit discussion of pacing and collaboration risks.",
+      "summary": "Overall evidence supports positive review guidance with explicit discussion of pacing and collaboration risks.",
       "observations": [
         {
           "domain": "mission_fit",

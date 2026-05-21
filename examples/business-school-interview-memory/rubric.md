@@ -29,22 +29,26 @@ discussion and can cap the recommendation if severe.
 - poor_team_maturity
 - missing_core_evidence
 
-## Composite Index
+## Synthetic Evidence Support Index
 
-The composite index is a weighted aggregate of domain indices, adjusted by:
+The synthetic evidence support index is a weighted aggregate of domain evidence
+indices, adjusted by:
 
 - high-severity red flags;
 - missing critical evidence;
 - contradiction count;
 - recommendation confidence.
 
-## Recommendation Labels
+## Review Guidance Labels
 
 | Label | Meaning |
 | --- | --- |
-| strong_recommend | Strong evidence across domains, manageable risks, high confidence |
-| recommend | Positive evidence with some discussion items |
-| discuss_further | Mixed evidence or important unresolved questions |
-| caution | Material concerns despite some strengths |
-| do_not_recommend | Evidence does not support the program fit |
-| insufficient_evidence | The system cannot responsibly recommend either way |
+| strong_positive_signal_with_risks | Strong synthetic evidence across domains, with risks still surfaced for human review |
+| positive_signal_with_discussion_risks | Positive synthetic evidence with discussion items |
+| mixed_signal_discuss_further | Mixed evidence or important unresolved questions |
+| material_concerns_review_required | Material concerns despite some strengths |
+| insufficient_evidence | The system cannot responsibly give review guidance either way |
+
+These labels are not admissions decisions. They must not be converted into
+admit/reject/rank outputs without a separate legal, validity, fairness, and
+faculty governance review.

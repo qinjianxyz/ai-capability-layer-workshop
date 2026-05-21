@@ -71,7 +71,7 @@ Controls:
 Do not show:
 
 - score;
-- predicted recommendation;
+- predicted admission recommendation;
 - hidden rubric weights.
 
 ### Review Before Submit
@@ -105,8 +105,8 @@ Columns:
 
 - candidate id;
 - completion status;
-- evaluation status;
-- composite band;
+- review status;
+- evidence-support band;
 - highest green flag;
 - highest red flag;
 - missing evidence count;
@@ -124,8 +124,8 @@ Filters:
 
 Top band:
 
-- recommendation label;
-- composite index;
+- review-guidance label;
+- synthetic evidence support index;
 - confidence;
 - reviewer status;
 - benchmark status.
@@ -152,11 +152,11 @@ Actions:
 
 Purpose:
 
-- compare AI recommendation, faculty notes, and committee decision.
+- compare review guidance, faculty notes, and committee decision.
 
 Shows:
 
-- recommendation;
+- review guidance;
 - reviewer overrides;
 - unresolved disagreements;
 - risk flags;
@@ -174,7 +174,7 @@ Configure:
 - rubric;
 - question bank;
 - allowed response modes;
-- recommendation labels;
+- review-guidance labels;
 - benchmark thresholds;
 - privacy notice;
 - reviewer assignments.
@@ -205,7 +205,7 @@ Shows:
 - domain coverage;
 - retrieval hit rate;
 - forbidden label check;
-- recommendation drift;
+- review-guidance drift;
 - override rate.
 
 ## Memory Steward Experience
@@ -236,7 +236,7 @@ Shows workflow nodes:
 - validation;
 - rubric indexing;
 - memory extraction;
-- evaluation;
+- review guidance;
 - faculty review;
 - retrospective.
 
@@ -261,7 +261,7 @@ These four screens are enough to show the full system loop.
 
 - Too much AI theater: candidates may distrust the process.
 - Too much raw transcript: faculty drown in information again.
-- Hidden recommendation logic: committee cannot challenge the system.
+- Hidden review-guidance logic: committee cannot challenge the system.
 - Overexposed scoring: candidates may optimize answers unnaturally.
 - Weak privacy copy: school cannot responsibly use real data.
 
@@ -270,7 +270,7 @@ These four screens are enough to show the full system loop.
 - Candidate completion rate.
 - Candidate support requests per interview.
 - Faculty time to first useful judgment.
-- Percent of faculty recommendations with evidence review completed.
+- Percent of faculty review-guidance labels with evidence review completed.
 - Override rate and override quality.
 - Memory assets approved per cycle.
 - Benchmark pass rate before launch.

@@ -21,8 +21,43 @@
       "passed": true
     },
     {
+      "detail": "False",
+      "id": "governing_scope_blocks_production_candidate_decision_use",
+      "passed": true
+    },
+    {
+      "detail": "deidentified_canonical_memory_only",
+      "id": "raw_vault_separated_from_gbrain",
+      "passed": true
+    },
+    {
+      "detail": "pt-BR",
+      "id": "candidate_notice_portuguese_declared",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "id": "legal_basis_matrix_covers_required_purposes",
+      "passed": true
+    },
+    {
+      "detail": "12/8",
+      "id": "skill_nodes_used",
+      "passed": true
+    },
+    {
+      "detail": "5 hypotheses",
+      "id": "projection_hypotheses_are_aggregate_only",
+      "passed": true
+    },
+    {
       "detail": "1.000",
       "id": "provenance_coverage",
+      "passed": true
+    },
+    {
+      "detail": "0 dangling edges",
+      "id": "graph_edges_resolve",
       "passed": true
     },
     {
@@ -32,11 +67,21 @@
     },
     {
       "detail": "1.000",
+      "id": "source_ledger_coverage",
+      "passed": true
+    },
+    {
+      "detail": "1.000",
+      "id": "deidentified_memory_review_coverage",
+      "passed": true
+    },
+    {
+      "detail": "1.000",
       "id": "retrieval_hit_at_3",
       "passed": true
     },
     {
-      "detail": "recommend expected recommend",
+      "detail": "positive_signal_with_discussion_risks expected positive_signal_with_discussion_risks",
       "id": "recommendation_matches_expected",
       "passed": true
     },
@@ -49,8 +94,75 @@
       "detail": "",
       "id": "no_forbidden_recommendation_labels",
       "passed": true
+    },
+    {
+      "detail": "raw refs are ledger-only",
+      "id": "no_raw_vault_refs_in_gbrain_memory",
+      "passed": true
+    },
+    {
+      "detail": "5/5",
+      "id": "projection_packet_count",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "id": "projection_evidence_refs_resolve",
+      "passed": true
+    },
+    {
+      "detail": "candidate-level blocked uses declared",
+      "id": "projection_packet_blocks_candidate_use",
+      "passed": true
+    },
+    {
+      "detail": "12 skill nodes support next-cycle playbook",
+      "id": "retrospective_playbook_ready",
+      "passed": true
     }
   ],
+  "governance": {
+    "cycle_id": "LINK-MOCK-2026",
+    "production_candidate_decision_use": false,
+    "projection_layer_scope": "aggregate_process_hypotheses_only",
+    "raw_vault_policy": {
+      "gbrain_allowed_data": "deidentified_canonical_memory_only",
+      "public_ai_allowed_data": "synthetic_or_approved_deidentified_only",
+      "raw_recordings_allowed": false,
+      "raw_transcripts_allowed": false,
+      "raw_vault_access_group": "restricted_admissions_privacy_mock",
+      "raw_vault_id": "RAW-VAULT-MOCK",
+      "separate_anonymization_log_required": true
+    },
+    "red_lines": {
+      "do_not_automate": [
+        "admit_reject",
+        "candidate_ranking",
+        "candidate_fit_scoring",
+        "protected_trait_inference",
+        "emotion_recognition",
+        "personality_scoring",
+        "individual_success_prediction",
+        "automated_committee_rationale_without_human_approval"
+      ],
+      "do_not_claim": [
+        "predicts_successful_students",
+        "removes_bias",
+        "makes_admissions_fair",
+        "ai_improves_selection",
+        "candidate_should_be_admitted_or_rejected",
+        "fully_compliant_without_legal_signoff"
+      ],
+      "do_not_store_in_gbrain": [
+        "raw_candidate_identifiers",
+        "raw_recordings",
+        "unredacted_transcripts",
+        "sensitive_data",
+        "faculty_gossip",
+        "unsupported_potential_labels"
+      ]
+    }
+  },
   "retrieval_benchmark": {
     "hit_at_3": 1.0,
     "query_results": [
@@ -64,6 +176,7 @@
             "claim": "Asked to mock the entire business school process instead of waiting for perfect real data.",
             "domain": "entrepreneurial_builder",
             "polarity": "green",
+            "source_id": "SRC-INT-016",
             "source_interview_id": "INT-016"
           },
           {
@@ -71,6 +184,7 @@
             "claim": "Repeatedly turns conceptual requirements into buildable systems with tests.",
             "domain": "entrepreneurial_builder",
             "polarity": "green",
+            "source_id": "SRC-INT-024",
             "source_interview_id": "INT-024"
           },
           {
@@ -78,6 +192,7 @@
             "claim": "Needs explicit validation boundaries before using composite indices in real selection.",
             "domain": "ethical_judgment",
             "polarity": "missing",
+            "source_id": "SRC-INT-013",
             "source_interview_id": "INT-013"
           }
         ]
@@ -92,6 +207,7 @@
             "claim": "Recognized that deep research should enrich and validate after local requirements are clearer.",
             "domain": "learning_velocity",
             "polarity": "green",
+            "source_id": "SRC-INT-011",
             "source_interview_id": "INT-011"
           },
           {
@@ -99,6 +215,7 @@
             "claim": "Placed deep research after local requirement discovery so it can validate and enrich rather than dominate.",
             "domain": "learning_velocity",
             "polarity": "green",
+            "source_id": "SRC-INT-017",
             "source_interview_id": "INT-017"
           },
           {
@@ -106,6 +223,7 @@
             "claim": "Connected the interview system to faculty leverage and institutional learning rather than generic AI novelty.",
             "domain": "mission_fit",
             "polarity": "green",
+            "source_id": "SRC-INT-001",
             "source_interview_id": "INT-001"
           }
         ]
@@ -117,16 +235,18 @@
         "top_3": [
           {
             "asset_id": "MEM-INT-004-OBS-02",
-            "claim": "Clarified that recommendations should expose evidence, confidence, and red flags.",
+            "claim": "Clarified that review guidance should expose evidence, confidence, and red flags.",
             "domain": "communication_clarity",
             "polarity": "green",
+            "source_id": "SRC-INT-004",
             "source_interview_id": "INT-004"
           },
           {
             "asset_id": "MEM-INT-007-OBS-01",
-            "claim": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and recommendations.",
+            "claim": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and review guidance.",
             "domain": "entrepreneurial_builder",
             "polarity": "green",
+            "source_id": "SRC-INT-007",
             "source_interview_id": "INT-007"
           },
           {
@@ -134,6 +254,7 @@
             "claim": "May create large ambition faster than stakeholders can digest unless the scope is actively bounded.",
             "domain": "collaboration_maturity",
             "polarity": "red",
+            "source_id": "SRC-INT-003",
             "source_interview_id": "INT-003"
           }
         ]
@@ -148,6 +269,7 @@
             "claim": "Needs explicit validation boundaries before using composite indices in real selection.",
             "domain": "ethical_judgment",
             "polarity": "missing",
+            "source_id": "SRC-INT-013",
             "source_interview_id": "INT-013"
           },
           {
@@ -155,13 +277,15 @@
             "claim": "Understands that the school's advantage could come from compounding faculty judgment.",
             "domain": "mission_fit",
             "polarity": "green",
+            "source_id": "SRC-INT-015",
             "source_interview_id": "INT-015"
           },
           {
             "asset_id": "MEM-INT-004-OBS-01",
-            "claim": "Drew a boundary between useful recommendations and automated admit/reject execution.",
+            "claim": "Drew a boundary between useful review guidance and automated admit/reject execution.",
             "domain": "ethical_judgment",
             "polarity": "green",
+            "source_id": "SRC-INT-004",
             "source_interview_id": "INT-004"
           }
         ]
@@ -173,16 +297,18 @@
         "top_3": [
           {
             "asset_id": "MEM-INT-001-OBS-02",
-            "claim": "Separated final human decision authority from evidence-backed recommendations.",
+            "claim": "Separated final human decision authority from evidence-backed review guidance.",
             "domain": "communication_clarity",
             "polarity": "green",
+            "source_id": "SRC-INT-001",
             "source_interview_id": "INT-001"
           },
           {
             "asset_id": "MEM-INT-004-OBS-02",
-            "claim": "Clarified that recommendations should expose evidence, confidence, and red flags.",
+            "claim": "Clarified that review guidance should expose evidence, confidence, and red flags.",
             "domain": "communication_clarity",
             "polarity": "green",
+            "source_id": "SRC-INT-004",
             "source_interview_id": "INT-004"
           },
           {
@@ -190,6 +316,7 @@
             "claim": "Named benchmarkable quality dimensions such as memory reliability and eval performance.",
             "domain": "communication_clarity",
             "polarity": "green",
+            "source_id": "SRC-INT-008",
             "source_interview_id": "INT-008"
           }
         ]
@@ -204,9 +331,12 @@
     "composite_index": 78.0,
     "domain_coverage": 1.0,
     "memory_asset_count": 60,
+    "projection_hypothesis_count": 5,
     "provenance_coverage": 1.0,
-    "recommendation": "recommend",
+    "recommendation": "positive_signal_with_discussion_risks",
     "record_count": 30,
-    "retrieval_hit_at_3": 1.0
+    "retrieval_hit_at_3": 1.0,
+    "skill_node_count": 12,
+    "source_ledger_coverage": 1.0
   }
 }

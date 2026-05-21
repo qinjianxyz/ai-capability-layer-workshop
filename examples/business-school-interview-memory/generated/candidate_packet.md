@@ -1,13 +1,16 @@
-# Candidate Evaluation Packet
+# Synthetic Committee Review Packet
 
 - Candidate: `CAND-JQ-001`
 - Data class: `synthetic`
-- Recommendation: `recommend`
-- Composite index: `78.0`
+- Deployment boundary: synthetic workshop fixture; not a production admissions decision system
+- Review guidance: `positive_signal_with_discussion_risks`
+- Guidance meaning: committee review guidance, not admit/reject/rank/fit scoring
+- Synthetic evidence support index: `78.0`
 - Recommendation confidence: `0.79`
 - Eval status: `PASS`
+- Red line: this packet is not an admit/reject/rank/fit decision.
 
-## Domain Indices
+## Domain Evidence Indices
 
 | Domain | Index | Confidence | Green | Red | Missing |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -42,7 +45,7 @@
 - **communication_clarity** (INT-020): Needs clearer buyer-facing value narrative after the technical mock works.
 - **collaboration_maturity** (INT-028): Need more evidence on how the candidate behaves in slower group settings.
 
-## Committee Questions
+## Committee Questions For Human Review
 
 - How should the committee weigh exceptional builder signal against pacing and collaboration risks?
 - What evidence would show the candidate can translate technical ambition for a mixed-experience cohort?
@@ -55,9 +58,30 @@
 - PASS: `record_count` - 30/30
 - PASS: `rubric_weights_sum_to_one` - 1.0000
 - PASS: `observation_domains_known` - ok
+- PASS: `governing_scope_blocks_production_candidate_decision_use` - False
+- PASS: `raw_vault_separated_from_gbrain` - deidentified_canonical_memory_only
+- PASS: `candidate_notice_portuguese_declared` - pt-BR
+- PASS: `legal_basis_matrix_covers_required_purposes` - ok
+- PASS: `skill_nodes_used` - 12/8
+- PASS: `projection_hypotheses_are_aggregate_only` - 5 hypotheses
 - PASS: `provenance_coverage` - 1.000
+- PASS: `graph_edges_resolve` - 0 dangling edges
 - PASS: `domain_coverage` - 1.000
+- PASS: `source_ledger_coverage` - 1.000
+- PASS: `deidentified_memory_review_coverage` - 1.000
 - PASS: `retrieval_hit_at_3` - 1.000
-- PASS: `recommendation_matches_expected` - recommend expected recommend
+- PASS: `recommendation_matches_expected` - positive_signal_with_discussion_risks expected positive_signal_with_discussion_risks
 - PASS: `composite_index_threshold` - 78.0 >= 76
 - PASS: `no_forbidden_recommendation_labels` - ok
+- PASS: `no_raw_vault_refs_in_gbrain_memory` - raw refs are ledger-only
+- PASS: `projection_packet_count` - 5/5
+- PASS: `projection_evidence_refs_resolve` - ok
+- PASS: `projection_packet_blocks_candidate_use` - candidate-level blocked uses declared
+- PASS: `retrospective_playbook_ready` - 12 skill nodes support next-cycle playbook
+
+## Governance Boundary
+
+- Production candidate decision use: `False`
+- Projection layer scope: `aggregate_process_hypotheses_only`
+- GBrain allowed data: `deidentified_canonical_memory_only`
+- Do not automate: admit_reject, candidate_ranking, candidate_fit_scoring, protected_trait_inference, emotion_recognition, personality_scoring, individual_success_prediction, automated_committee_rationale_without_human_approval

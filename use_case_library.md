@@ -27,5 +27,6 @@
 ## Decision Support And Memory Systems
 
 - Interview memory OS: turn recurring business school interviews into raw
-  evidence, canonical memory, domain indices, holistic recommendations, and
-  benchmarked committee review packets.
+  evidence, source/consent ledger, de-identified canonical memory, skill graph,
+  aggregate projection hypotheses, review-guidance packets, and next-cycle
+  playbooks.

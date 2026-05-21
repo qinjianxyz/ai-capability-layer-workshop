@@ -211,3 +211,16 @@ memory + rubric + evals + benchmarks + evidence + human review
 ```
 
 That is the DNA.
+
+## Deep Research Addendum
+
+After this session history was first exported, the deep research memo returned
+and narrowed the production v0. The current repo now treats this example as
+Interview Memory OS v0: governed interview-cycle memory, source/consent ledger,
+de-identification review, GBrain-style canonical memory, aggregate projection
+hypotheses, and next-cycle playbook.
+
+The earlier `recommend` output is preserved above as workshop history. The
+current mock replaces admissions-like labels with synthetic review-guidance
+labels such as `positive_signal_with_discussion_risks`, and the eval now checks
+that no output becomes admit/reject/rank decisioning.

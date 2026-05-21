@@ -1,0 +1,83 @@
+{
+  "acceptance_criteria": [
+    "Every raw source has a ledger record.",
+    "Every memory asset has lineage to approved sources.",
+    "Every memory asset passes de-identification review.",
+    "No GBrain answer about interview memory appears without source links.",
+    "No system output recommends an admissions decision.",
+    "Faculty can retrieve last-cycle lessons in under five minutes.",
+    "At least eight skill nodes are used in a real workshop.",
+    "The retrospective produces a next-cycle playbook.",
+    "Privacy/legal owner signs off before live candidate data is used.",
+    "The projection packet contains only aggregate/process hypotheses."
+  ],
+  "cycle_id": "LINK-MOCK-2026",
+  "failed_checks": [],
+  "legal_basis_purposes": [
+    "candidate_scheduling",
+    "interview_note_taking",
+    "recording_transcription",
+    "committee_decision_logging",
+    "internal_process_improvement",
+    "deidentified_institutional_memory",
+    "research_validation",
+    "ai_assisted_summary_retrieval"
+  ],
+  "passed_checks": [
+    "candidate_is_synthetic",
+    "record_count",
+    "rubric_weights_sum_to_one",
+    "observation_domains_known",
+    "governing_scope_blocks_production_candidate_decision_use",
+    "raw_vault_separated_from_gbrain",
+    "candidate_notice_portuguese_declared",
+    "legal_basis_matrix_covers_required_purposes",
+    "skill_nodes_used",
+    "projection_hypotheses_are_aggregate_only",
+    "provenance_coverage",
+    "graph_edges_resolve",
+    "domain_coverage",
+    "source_ledger_coverage",
+    "deidentified_memory_review_coverage",
+    "retrieval_hit_at_3",
+    "recommendation_matches_expected",
+    "composite_index_threshold",
+    "no_forbidden_recommendation_labels",
+    "no_raw_vault_refs_in_gbrain_memory",
+    "projection_packet_count",
+    "projection_evidence_refs_resolve",
+    "projection_packet_blocks_candidate_use",
+    "retrospective_playbook_ready"
+  ],
+  "red_lines": {
+    "do_not_automate": [
+      "admit_reject",
+      "candidate_ranking",
+      "candidate_fit_scoring",
+      "protected_trait_inference",
+      "emotion_recognition",
+      "personality_scoring",
+      "individual_success_prediction",
+      "automated_committee_rationale_without_human_approval"
+    ],
+    "do_not_claim": [
+      "predicts_successful_students",
+      "removes_bias",
+      "makes_admissions_fair",
+      "ai_improves_selection",
+      "candidate_should_be_admitted_or_rejected",
+      "fully_compliant_without_legal_signoff"
+    ],
+    "do_not_store_in_gbrain": [
+      "raw_candidate_identifiers",
+      "raw_recordings",
+      "unredacted_transcripts",
+      "sensitive_data",
+      "faculty_gossip",
+      "unsupported_potential_labels"
+    ]
+  },
+  "schema_version": "interview_memory_governance_audit.v1",
+  "source_ledger_entries": 30,
+  "status": "PASS"
+}

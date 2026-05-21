@@ -10,20 +10,27 @@ the last committee learned.
 
 ## Product DNA
 
-Interview Memory OS is a supervised decision-support system:
+Interview Memory OS v0 is a governed memory-and-retrospective system:
 
 ```text
 raw interview evidence
--> source/provenance ledger
+-> governed vault
+-> source / consent / retention ledger
+-> extraction and redaction workspace
+-> de-identification review
 -> canonical memory assets
--> rubric/domain indices
--> retrieval and benchmark checks
--> holistic recommendation
+-> GBrain knowledge system
+-> Link School skill graph
+-> aggregate projection packet
 -> human committee review
--> retrospective learning
+-> next-cycle playbook
 ```
 
-The system may recommend. It may not decide. Humans keep final authority.
+The system may provide synthetic committee review guidance inside this public
+mock. A real v0 should not admit, reject, rank, score individual fit, or predict
+individual success. Humans keep final authority, and the production value is
+faculty memory, rubric consistency, question improvement, calibration, and
+next-cycle preparation.
 
 The user experience is part of the DNA. A candidate can self-serve through a
 structured interview website, but the website is only the front door. Every
@@ -42,13 +49,18 @@ needs a complete, inspectable example of the system DNA.
 
 ## First Wedge
 
-Build one mock candidate evaluation workflow:
+Build one mock interview-memory workflow:
 
 - one candidate;
 - 30 synthetic interviews;
+- one mock cycle setup;
+- one source/consent ledger;
 - one replaceable rubric;
 - one canonical memory graph;
-- one deterministic recommendation pipeline;
+- one deterministic synthetic review-guidance pipeline;
+- one aggregate projection packet;
+- one next-cycle playbook;
+- one governance audit;
 - one retrieval benchmark;
 - one eval report.
 
@@ -65,10 +77,11 @@ This system answers:
 - Which domains are strong?
 - Which domains are weak or missing?
 - Which red flags require committee discussion?
-- What recommendation follows from the evidence?
+- What synthetic review guidance follows from the evidence?
 - Can we trace every claim back to source notes?
 - Can memory retrieval answer useful committee questions?
 - Did the system pass benchmark checks?
+- What should next year's faculty team inherit?
 
 ## Real-School Requirement
 
@@ -77,7 +90,7 @@ In a real deployment, the school supplies:
 - actual evaluation criteria;
 - actual rubric weights or qualitative priority order;
 - interview stages;
-- allowed recommendation labels;
+- allowed review-guidance labels;
 - red-flag policy;
 - data retention rules;
 - privacy/legal review;
@@ -89,8 +102,30 @@ The system supplies:
 - memory structure;
 - eval harness;
 - benchmark design;
-- scoring/recommendation logic;
+- synthetic review-guidance logic;
 - provenance and review workflow.
+
+## Deep Research Update
+
+The deep research memo recommends **build, but narrow hard**. It validates the
+pain but makes the v0 safer and more useful: this is not "AI admissions." It is
+a governed operating loop that preserves what faculty learned and makes the next
+cycle better.
+
+The public mock now reflects that research:
+
+- `research/deep_research_memo_2026-05-21.md` stores the uploaded memo.
+- `data/mock_cycle_setup.json` models the cycle registry, legal-basis matrix,
+  candidate notice, raw-vault policy, 12 skill nodes, projection hypotheses, and
+  red lines.
+- `generated/source_consent_ledger.json` proves every synthetic raw source has
+  a ledger entry.
+- `generated/mock_gbrain_memory.json` separates raw source records from
+  de-identified canonical memory.
+- `generated/projection_packet.md` contains only aggregate/process hypotheses.
+- `generated/next_cycle_playbook.md` shows what next year's faculty team
+  inherits.
+- `generated/governance_audit.json` records pass/fail checks.
 
 ## Mock Rubric
 
@@ -145,7 +180,7 @@ Required evals:
 - source provenance coverage;
 - domain coverage;
 - retrieval hit rate;
-- expected recommendation behavior;
+- expected review-guidance behavior;
 - forbidden label check.
 
 Required benchmark questions:
@@ -156,15 +191,14 @@ Required benchmark questions:
 - ethics/governance evidence;
 - communication clarity evidence.
 
-## Recommendation Contract
+## Synthetic Review Guidance Contract
 
 Allowed labels:
 
-- `strong_recommend`
-- `recommend`
-- `discuss_further`
-- `caution`
-- `do_not_recommend`
+- `strong_positive_signal_with_risks`
+- `positive_signal_with_discussion_risks`
+- `mixed_signal_discuss_further`
+- `material_concerns_review_required`
 - `insufficient_evidence`
 
 Forbidden labels:
@@ -173,8 +207,11 @@ Forbidden labels:
 - `reject`
 - `scholarship_award`
 - `automatic_rank`
+- `strong_recommend`
+- `recommend`
+- `do_not_recommend`
 
-The recommendation should include:
+The review guidance should include:
 
 - composite index;
 - per-domain indices;
@@ -190,21 +227,21 @@ The recommendation should include:
 The current synthetic run evaluates `CAND-JQ-001` as:
 
 ```text
-recommend
+positive_signal_with_discussion_risks
 composite index around 78
 strong builder / learning / execution evidence
 real committee discussion needed on pacing, collaboration, and translation
 ```
 
-That result is intentionally not forced to `strong_recommend`. The eval harness
-should preserve honest red/yellow signals.
+That result is intentionally not forced to
+`strong_positive_signal_with_risks`. The eval harness should preserve honest
+red/yellow signals.
 
 ## Implementation Plan
 
 1. Keep the public example fully synthetic.
 2. Make the mock pipeline deterministic and inspectable.
-3. Let the deep research result update rubric, governance, and benchmark
-   thresholds later.
+3. Use the deep research memo as the governing v0 scope.
 4. Add the self-serve candidate and faculty UI around the same memory/eval
    contract.
 5. For a real school, replace the mock rubric and data with school-approved
@@ -219,11 +256,11 @@ blueprint lives in `uiux_blueprint.md`.
 
 ## Deep Research Intake
 
-When the deep research returns, use it to revise:
+The deep research has been ingested. Future real-school work should revise:
 
 - real-school rubric assumptions;
 - legal/privacy boundaries;
-- recommendation labels;
+- review-guidance labels;
 - benchmark questions;
 - psychometric caution language;
 - adoption plan;

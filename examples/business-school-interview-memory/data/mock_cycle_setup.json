@@ -1,0 +1,365 @@
+{
+  "schema_version": "interview_memory_os.mock_cycle_setup.v1",
+  "research_source": "research/deep_research_memo_2026-05-21.md",
+  "governing_scope": {
+    "product_name": "Interview Memory OS v0",
+    "wedge": "one faculty team, one program, one rubric, one interview cycle, one retrospective",
+    "primary_value": "faculty memory, rubric consistency, question improvement, retrospective learning, and next-cycle preparation",
+    "production_candidate_decision_use": false,
+    "projection_layer_scope": "aggregate_process_hypotheses_only",
+    "human_final_decision_required": true
+  },
+  "interview_cycle": {
+    "cycle_id": "LINK-MOCK-2026",
+    "program_id": "LINK-MOCK-MBA",
+    "cycle_year": 2026,
+    "rubric_id": "RUBRIC-MOCK-BUSINESS-SCHOOL-V1",
+    "faculty_team_id": "FACULTY-MOCK-TEAM-01",
+    "owner": "faculty_chair_mock",
+    "privacy_owner": "privacy_owner_mock",
+    "notice_version": "NOTICE-PT-BR-MOCK-V1",
+    "legal_basis_record": "LEGAL-BASIS-MOCK-V1",
+    "start_date": "2026-05-21",
+    "end_date": "2026-05-21",
+    "retention_policy": "synthetic_public_records_retained_in_repo; real raw records would use restricted retention",
+    "status": "synthetic_workshop_fixture",
+    "review_signoffs": [
+      "faculty_chair_mock",
+      "privacy_owner_mock",
+      "knowledge_steward_mock"
+    ]
+  },
+  "raw_vault_policy": {
+    "raw_vault_id": "RAW-VAULT-MOCK",
+    "raw_vault_access_group": "restricted_admissions_privacy_mock",
+    "gbrain_allowed_data": "deidentified_canonical_memory_only",
+    "public_ai_allowed_data": "synthetic_or_approved_deidentified_only",
+    "raw_recordings_allowed": false,
+    "raw_transcripts_allowed": false,
+    "separate_anonymization_log_required": true
+  },
+  "candidate_notice": {
+    "notice_id": "NOTICE-PT-BR-MOCK-V1",
+    "language": "pt-BR",
+    "controller": "Link School of Business (mock controller)",
+    "ai_statement": "AI tools may assist with synthetic or de-identified internal summaries and retrieval; they do not make admissions decisions.",
+    "red_line_statement": "No automated admit/reject decision, candidate ranking, protected-trait inference, emotion recognition, or personality scoring.",
+    "rights_channel": "dpo@example.invalid"
+  },
+  "legal_basis_matrix": [
+    {
+      "purpose": "candidate_scheduling",
+      "basis": "admissions_operations_mock",
+      "requires_legal_review_before_live_data": true
+    },
+    {
+      "purpose": "interview_note_taking",
+      "basis": "admissions_operations_mock",
+      "requires_legal_review_before_live_data": true
+    },
+    {
+      "purpose": "recording_transcription",
+      "basis": "explicit_consent_if_enabled",
+      "requires_legal_review_before_live_data": true
+    },
+    {
+      "purpose": "committee_decision_logging",
+      "basis": "admissions_operations_mock",
+      "requires_legal_review_before_live_data": true
+    },
+    {
+      "purpose": "internal_process_improvement",
+      "basis": "legitimate_interest_balancing_test_mock",
+      "requires_legal_review_before_live_data": true
+    },
+    {
+      "purpose": "deidentified_institutional_memory",
+      "basis": "deidentified_or_anonymized_reuse_after_review",
+      "requires_legal_review_before_live_data": true
+    },
+    {
+      "purpose": "research_validation",
+      "basis": "research_protocol_or_consent_if_future_outcomes_studied",
+      "requires_legal_review_before_live_data": true
+    },
+    {
+      "purpose": "ai_assisted_summary_retrieval",
+      "basis": "approved_deidentified_material_only",
+      "requires_legal_review_before_live_data": true
+    }
+  ],
+  "skill_nodes": [
+    {
+      "skill_id": "SKILL-01",
+      "name": "Cycle intake and governance gate",
+      "trigger": "New interview cycle starts",
+      "input_contract": "Program, rubric, data types, vendors",
+      "output_contract": "Approved scope and data map",
+      "owner": "admissions_ops",
+      "verifier": "privacy_owner",
+      "phase": "before_cycle",
+      "memory_update_rule": "creates_cycle_record_and_ledger",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-02",
+      "name": "Rubric pressure test",
+      "trigger": "Rubric is reused or changed",
+      "input_contract": "Rubric, last-cycle memory",
+      "output_contract": "Rubric risks and clarification list",
+      "owner": "faculty_chair",
+      "verifier": "faculty_panel",
+      "phase": "before_cycle",
+      "memory_update_rule": "updates_rubric_memory_asset",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-03",
+      "name": "Question-bank calibration",
+      "trigger": "Questions selected",
+      "input_contract": "Question inventory, rubric",
+      "output_contract": "Approved question/probe set",
+      "owner": "faculty_lead",
+      "verifier": "calibration_group",
+      "phase": "before_cycle",
+      "memory_update_rule": "updates_question_performance_asset",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-04",
+      "name": "Interviewer calibration",
+      "trigger": "Before live interviews",
+      "input_contract": "Sample responses, rubric anchors",
+      "output_contract": "Calibration notes and disagreements",
+      "owner": "faculty_trainer",
+      "verifier": "committee_chair",
+      "phase": "before_cycle",
+      "memory_update_rule": "updates_calibration_asset",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-05",
+      "name": "Structured evidence capture",
+      "trigger": "Interview completed",
+      "input_contract": "Notes, rubric dimensions",
+      "output_contract": "Evidence-coded note",
+      "owner": "interviewer",
+      "verifier": "admissions_ops",
+      "phase": "during_cycle",
+      "memory_update_rule": "adds_source_linked_note",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-06",
+      "name": "Edge-case decision logging",
+      "trigger": "Committee ambiguity arises",
+      "input_contract": "Candidate evidence, rubric, issue",
+      "output_contract": "Rationale, dissent, unresolved issue",
+      "owner": "committee_chair",
+      "verifier": "second_faculty_reviewer",
+      "phase": "committee_review",
+      "memory_update_rule": "adds_edge_case_memory",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-07",
+      "name": "Redaction and de-ID review",
+      "trigger": "Raw evidence becomes memory",
+      "input_contract": "Draft summary, raw source",
+      "output_contract": "De-identified asset or rejection",
+      "owner": "knowledge_steward",
+      "verifier": "privacy_owner",
+      "phase": "post_cycle",
+      "memory_update_rule": "updates_anonymization_log",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-08",
+      "name": "Canonical memory distillation",
+      "trigger": "Post-cycle synthesis",
+      "input_contract": "Notes, logs, retrospective",
+      "output_contract": "Canonical memory asset",
+      "owner": "knowledge_steward",
+      "verifier": "faculty_chair",
+      "phase": "post_cycle",
+      "memory_update_rule": "publishes_to_gbrain",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-09",
+      "name": "Retrospective facilitation",
+      "trigger": "Cycle ends",
+      "input_contract": "Metrics, examples, unresolved questions",
+      "output_contract": "Retro decisions and action list",
+      "owner": "facilitator",
+      "verifier": "faculty_team",
+      "phase": "post_cycle",
+      "memory_update_rule": "updates_playbook",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-10",
+      "name": "Projection packet creation",
+      "trigger": "Planning next cycle",
+      "input_contract": "Canonical assets, metrics",
+      "output_contract": "Aggregate hypotheses",
+      "owner": "knowledge_steward",
+      "verifier": "faculty_chair",
+      "phase": "next_cycle",
+      "memory_update_rule": "adds_projection_records",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-11",
+      "name": "Projection falsifier review",
+      "trigger": "Projection proposed",
+      "input_contract": "Hypothesis, evidence, counterexamples",
+      "output_contract": "Approve, revise, or block",
+      "owner": "faculty_panel",
+      "verifier": "privacy_ethics_reviewer",
+      "phase": "next_cycle",
+      "memory_update_rule": "updates_projection_status",
+      "status": "used_in_mock"
+    },
+    {
+      "skill_id": "SKILL-12",
+      "name": "Next-cycle playbook publishing",
+      "trigger": "New cycle preparation",
+      "input_contract": "Approved memory and projections",
+      "output_contract": "Playbook",
+      "owner": "faculty_chair",
+      "verifier": "program_owner",
+      "phase": "next_cycle",
+      "memory_update_rule": "supersedes_prior_playbook",
+      "status": "used_in_mock"
+    }
+  ],
+  "projection_hypotheses": [
+    {
+      "hypothesis_id": "PROJ-001",
+      "statement": "Rubric dimension collaboration_maturity needs stronger calibration anchors before the next cycle.",
+      "allowed_use": "faculty preparation and calibration workshop design",
+      "blocked_use": "candidate scoring, ranking, or admit/reject decision",
+      "evidence_refs": [
+        "MEM-INT-003-OBS-02",
+        "MEM-INT-010-OBS-01"
+      ],
+      "assumptions": "Synthetic interview notes reflect recurring disagreement patterns.",
+      "confidence_label": "medium",
+      "falsifiers": "If calibrated mock interviews produce consistent collaboration evidence without new anchors, revise or retire the hypothesis.",
+      "reviewer": "faculty_panel_mock",
+      "decision": "approved_for_mock_playbook",
+      "outcome_check_date": "2026-08-31",
+      "result": "pending"
+    },
+    {
+      "hypothesis_id": "PROJ-002",
+      "statement": "Questions about builder mindset should require concrete tradeoff evidence, not general ambition.",
+      "allowed_use": "question-bank revision",
+      "blocked_use": "candidate ranking or predictive success claim",
+      "evidence_refs": [
+        "MEM-INT-002-OBS-01",
+        "MEM-INT-007-OBS-01"
+      ],
+      "assumptions": "The question bank currently rewards broad systems language unless probes force specificity.",
+      "confidence_label": "medium",
+      "falsifiers": "If next-cycle responses show high concrete evidence density without probes, the hypothesis weakens.",
+      "reviewer": "faculty_chair_mock",
+      "decision": "approved_for_mock_playbook",
+      "outcome_check_date": "2026-08-31",
+      "result": "pending"
+    },
+    {
+      "hypothesis_id": "PROJ-003",
+      "statement": "Interviewers should capture explicit uncertainty and follow-up probes for technical-to-business translation.",
+      "allowed_use": "structured note template improvement",
+      "blocked_use": "candidate-level risk label",
+      "evidence_refs": [
+        "MEM-INT-008-OBS-01",
+        "MEM-INT-013-OBS-02"
+      ],
+      "assumptions": "Missing business-translation evidence is partly a note-template problem.",
+      "confidence_label": "low",
+      "falsifiers": "If note quality improves but translation evidence remains weak, the rubric or questions need revision.",
+      "reviewer": "knowledge_steward_mock",
+      "decision": "approved_for_mock_playbook",
+      "outcome_check_date": "2026-08-31",
+      "result": "pending"
+    },
+    {
+      "hypothesis_id": "PROJ-004",
+      "statement": "Week-over-week note quality should be monitored because fatigue may reduce evidence specificity.",
+      "allowed_use": "cycle operations and interviewer workload planning",
+      "blocked_use": "candidate comparison across interview dates",
+      "evidence_refs": [
+        "MEM-INT-018-OBS-02",
+        "MEM-INT-024-OBS-01"
+      ],
+      "assumptions": "Synthetic note-quality variation stands in for real workload risk.",
+      "confidence_label": "low",
+      "falsifiers": "If evidence specificity remains stable across cycle timing, no workload intervention is needed.",
+      "reviewer": "admissions_ops_mock",
+      "decision": "approved_for_mock_playbook",
+      "outcome_check_date": "2026-08-31",
+      "result": "pending"
+    },
+    {
+      "hypothesis_id": "PROJ-005",
+      "statement": "The retrospective should publish at least one rubric lesson, one question-bank lesson, and one calibration lesson.",
+      "allowed_use": "post-cycle memory completeness check",
+      "blocked_use": "individual candidate outcome prediction",
+      "evidence_refs": [
+        "SKILL-08",
+        "SKILL-09",
+        "SKILL-12"
+      ],
+      "assumptions": "The system is valuable only if next year's team inherits concrete lessons.",
+      "confidence_label": "high",
+      "falsifiers": "If faculty cannot name a lesson that would otherwise be lost, narrow or stop the system.",
+      "reviewer": "program_owner_mock",
+      "decision": "approved_for_mock_playbook",
+      "outcome_check_date": "2026-08-31",
+      "result": "pending"
+    }
+  ],
+  "red_lines": {
+    "do_not_automate": [
+      "admit_reject",
+      "candidate_ranking",
+      "candidate_fit_scoring",
+      "protected_trait_inference",
+      "emotion_recognition",
+      "personality_scoring",
+      "individual_success_prediction",
+      "automated_committee_rationale_without_human_approval"
+    ],
+    "do_not_store_in_gbrain": [
+      "raw_candidate_identifiers",
+      "raw_recordings",
+      "unredacted_transcripts",
+      "sensitive_data",
+      "faculty_gossip",
+      "unsupported_potential_labels"
+    ],
+    "do_not_claim": [
+      "predicts_successful_students",
+      "removes_bias",
+      "makes_admissions_fair",
+      "ai_improves_selection",
+      "candidate_should_be_admitted_or_rejected",
+      "fully_compliant_without_legal_signoff"
+    ]
+  },
+  "acceptance_criteria": [
+    "Every raw source has a ledger record.",
+    "Every memory asset has lineage to approved sources.",
+    "Every memory asset passes de-identification review.",
+    "No GBrain answer about interview memory appears without source links.",
+    "No system output recommends an admissions decision.",
+    "Faculty can retrieve last-cycle lessons in under five minutes.",
+    "At least eight skill nodes are used in a real workshop.",
+    "The retrospective produces a next-cycle playbook.",
+    "Privacy/legal owner signs off before live candidate data is used.",
+    "The projection packet contains only aggregate/process hypotheses."
+  ]
+}

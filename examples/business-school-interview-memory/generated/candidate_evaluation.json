@@ -2,6 +2,7 @@
   "candidate_id": "CAND-JQ-001",
   "composite_index": 78.0,
   "data_class": "synthetic",
+  "deployment_boundary": "synthetic workshop fixture; not a production admissions decision system",
   "domain_indices": {
     "collaboration_maturity": {
       "confidence": 0.7,
@@ -82,6 +83,7 @@
       "confidence": 0.92,
       "domain": "entrepreneurial_builder",
       "risk_flag": null,
+      "source_id": "SRC-INT-002",
       "source_interview_id": "INT-002",
       "text": "Insisted on building an end-to-end mock system rather than stopping at a business plan."
     },
@@ -89,6 +91,7 @@
       "confidence": 0.9,
       "domain": "entrepreneurial_builder",
       "risk_flag": null,
+      "source_id": "SRC-INT-016",
       "source_interview_id": "INT-016",
       "text": "Asked to mock the entire business school process instead of waiting for perfect real data."
     },
@@ -96,6 +99,7 @@
       "confidence": 0.89,
       "domain": "entrepreneurial_builder",
       "risk_flag": null,
+      "source_id": "SRC-INT-011",
       "source_interview_id": "INT-011",
       "text": "Asked to build the capability layer itself: memory, evals, benchmarks, and mock end-to-end workflow."
     },
@@ -103,6 +107,7 @@
       "confidence": 0.88,
       "domain": "execution_evidence",
       "risk_flag": null,
+      "source_id": "SRC-INT-009",
       "source_interview_id": "INT-009",
       "text": "Converted a vague interviewing workflow into datasets, rubrics, memory databases, evals, and benchmarks."
     },
@@ -110,6 +115,7 @@
       "confidence": 0.88,
       "domain": "learning_velocity",
       "risk_flag": null,
+      "source_id": "SRC-INT-017",
       "source_interview_id": "INT-017",
       "text": "Placed deep research after local requirement discovery so it can validate and enrich rather than dominate."
     },
@@ -117,6 +123,7 @@
       "confidence": 0.88,
       "domain": "entrepreneurial_builder",
       "risk_flag": null,
+      "source_id": "SRC-INT-024",
       "source_interview_id": "INT-024",
       "text": "Repeatedly turns conceptual requirements into buildable systems with tests."
     },
@@ -124,6 +131,7 @@
       "confidence": 0.87,
       "domain": "mission_fit",
       "risk_flag": null,
+      "source_id": "SRC-INT-001",
       "source_interview_id": "INT-001",
       "text": "Connected the interview system to faculty leverage and institutional learning rather than generic AI novelty."
     },
@@ -131,6 +139,7 @@
       "confidence": 0.87,
       "domain": "execution_evidence",
       "risk_flag": null,
+      "source_id": "SRC-INT-021",
       "source_interview_id": "INT-021",
       "text": "Asked to build mock databases and run the process end to end."
     },
@@ -138,6 +147,7 @@
       "confidence": 0.86,
       "domain": "execution_evidence",
       "risk_flag": null,
+      "source_id": "SRC-INT-002",
       "source_interview_id": "INT-002",
       "text": "Defined a concrete build target: 30 mock interviews, rubric, memory, evaluation, and benchmarks."
     },
@@ -145,6 +155,7 @@
       "confidence": 0.86,
       "domain": "leadership_initiative",
       "risk_flag": null,
+      "source_id": "SRC-INT-006",
       "source_interview_id": "INT-006",
       "text": "Interrupted a premature artifact and redirected the team toward memory quality and end-to-end reliability."
     }
@@ -154,6 +165,7 @@
       "confidence": 0.68,
       "domain": "mission_fit",
       "risk_flag": "missing_core_evidence",
+      "source_id": "SRC-INT-008",
       "source_interview_id": "INT-008",
       "text": "Needs a sharper business metric for Link School adoption beyond technical correctness."
     },
@@ -161,6 +173,7 @@
       "confidence": 0.64,
       "domain": "ethical_judgment",
       "risk_flag": "missing_core_evidence",
+      "source_id": "SRC-INT-013",
       "source_interview_id": "INT-013",
       "text": "Needs explicit validation boundaries before using composite indices in real selection."
     },
@@ -168,6 +181,7 @@
       "confidence": 0.62,
       "domain": "communication_clarity",
       "risk_flag": "missing_core_evidence",
+      "source_id": "SRC-INT-020",
       "source_interview_id": "INT-020",
       "text": "Needs clearer buyer-facing value narrative after the technical mock works."
     },
@@ -175,6 +189,7 @@
       "confidence": 0.61,
       "domain": "collaboration_maturity",
       "risk_flag": "missing_core_evidence",
+      "source_id": "SRC-INT-028",
       "source_interview_id": "INT-028",
       "text": "Need more evidence on how the candidate behaves in slower group settings."
     }
@@ -184,8 +199,9 @@
     "high_red_count": 2,
     "penalty_points": 2.8
   },
-  "recommendation": "recommend",
+  "recommendation": "positive_signal_with_discussion_risks",
   "recommendation_confidence": 0.79,
+  "recommendation_meaning": "committee review guidance, not admit/reject/rank/fit scoring",
   "recommended_committee_questions": [
     "How should the committee weigh exceptional builder signal against pacing and collaboration risks?",
     "What evidence would show the candidate can translate technical ambition for a mixed-experience cohort?",
@@ -197,6 +213,7 @@
       "confidence": 0.73,
       "domain": "collaboration_maturity",
       "risk_flag": "weak_listening_signal",
+      "source_id": "SRC-INT-010",
       "source_interview_id": "INT-010",
       "text": "Fast critique could overwhelm collaborators if not paired with explicit shared framing."
     },
@@ -204,6 +221,7 @@
       "confidence": 0.72,
       "domain": "collaboration_maturity",
       "risk_flag": "over_claiming",
+      "source_id": "SRC-INT-003",
       "source_interview_id": "INT-003",
       "text": "May create large ambition faster than stakeholders can digest unless the scope is actively bounded."
     },
@@ -211,6 +229,7 @@
       "confidence": 0.67,
       "domain": "communication_clarity",
       "risk_flag": "weak_listening_signal",
+      "source_id": "SRC-INT-014",
       "source_interview_id": "INT-014",
       "text": "May need to translate technical architecture into faculty-friendly language more consistently."
     },
@@ -218,6 +237,7 @@
       "confidence": 0.66,
       "domain": "collaboration_maturity",
       "risk_flag": "poor_team_maturity",
+      "source_id": "SRC-INT-018",
       "source_interview_id": "INT-018",
       "text": "May need explicit cohort norms around pacing, listening, and shared ownership."
     }

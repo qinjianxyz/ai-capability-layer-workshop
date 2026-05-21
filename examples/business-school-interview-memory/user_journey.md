@@ -5,7 +5,7 @@
 The application is a self-serve interview workspace. A candidate can enter a
 school-provided interview link, complete a structured interview asynchronously,
 review what will be submitted, and send it to the committee. Faculty then review
-an evidence-backed evaluation packet, not a raw ocean of answers.
+an evidence-backed committee packet, not a raw ocean of answers.
 
 The key idea:
 
@@ -13,7 +13,7 @@ The key idea:
 candidate self-serve interview
 -> structured evidence capture
 -> memory and rubric indexing
--> benchmarked evaluation
+-> benchmarked review guidance
 -> faculty committee packet
 -> human final decision
 -> retrospective learning
@@ -31,12 +31,13 @@ submission, and what happens next.
 
 Needs evidence, not a pile of transcripts. They want domain indices, green
 flags, red flags, missing evidence, key excerpts, committee questions, and a
-recommendation they can challenge.
+review-guidance label they can challenge. The label is not an admit/reject/rank
+decision.
 
 ### Program Owner
 
 Needs control. They configure criteria, question bank, interview stages,
-allowed recommendation labels, privacy boundaries, and benchmark thresholds.
+allowed review-guidance labels, privacy boundaries, and benchmark thresholds.
 
 ### Memory Steward
 
@@ -124,7 +125,8 @@ Before submission, the candidate sees a review page:
 - what will be submitted;
 - "edit answer" controls.
 
-The candidate does not see the scoring model or recommendation.
+The candidate does not see synthetic evidence indices, review guidance, or
+hidden rubric weights.
 
 ### 6. Submission Receipt
 
@@ -146,15 +148,15 @@ Faculty see candidate submissions by status:
 - incomplete;
 - needs human attention;
 - data boundary issue;
-- evaluation generated;
+- review guidance generated;
 - committee reviewed.
 
 ### 2. Candidate Evidence Packet
 
 For each candidate, faculty see:
 
-- recommendation label;
-- composite index;
+- review-guidance label;
+- synthetic evidence support index;
 - per-domain indices;
 - confidence;
 - green flags;
@@ -166,6 +168,9 @@ For each candidate, faculty see:
 
 The first useful view is not a transcript. The transcript is behind the evidence
 packet.
+
+The packet must display the red line: it is not an admit/reject/rank/fit
+decision.
 
 ### 3. Challenge And Override
 
@@ -185,7 +190,7 @@ Every override becomes learning data.
 
 The committee view aggregates:
 
-- candidate recommendation;
+- review guidance;
 - faculty reviewer notes;
 - unresolved disagreements;
 - red flags requiring discussion;
@@ -193,7 +198,7 @@ The committee view aggregates:
 - decision options;
 - final human decision.
 
-The final decision is recorded separately from the AI recommendation.
+The final decision is recorded separately from synthetic review guidance.
 
 ## Program Owner Journey
 
@@ -208,7 +213,7 @@ The program owner creates an interview cycle:
 - allowed response modes;
 - privacy notice;
 - retention policy;
-- allowed recommendation labels;
+- allowed review-guidance labels;
 - benchmark thresholds.
 
 ### 2. Test With Synthetic Candidate
@@ -218,7 +223,7 @@ checks:
 
 - all questions display correctly;
 - evidence maps to domains;
-- evaluation packet is useful;
+- review packet is useful;
 - no forbidden labels appear;
 - benchmark checks pass.
 
@@ -335,7 +340,7 @@ Every candidate journey should leave behind:
 - source ledger entries;
 - canonical memory candidates;
 - rubric-domain evidence;
-- evaluation packet;
+- committee review packet;
 - benchmark run;
 - faculty overrides;
 - retrospective learning.

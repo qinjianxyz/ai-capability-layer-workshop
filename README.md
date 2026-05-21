@@ -15,16 +15,18 @@ Suggested team flow:
 
 1. Start with the business school example:
    `examples/business-school-interview-memory/`.
-2. Read the session history to understand how the requirements evolved:
+2. Read the public-safe session history to understand how the requirements evolved:
    `examples/business-school-interview-memory/session_history_2026-05-21.md`.
-3. Read the system DNA:
+3. For a word-for-word export of the user-visible chat, read:
+   `examples/business-school-interview-memory/verbatim_session_transcript_2026-05-21.md`.
+4. Read the system DNA:
    `examples/business-school-interview-memory/business_plan_and_spec.md`.
-4. Read the candidate and faculty journey:
+5. Read the candidate and faculty journey:
    `examples/business-school-interview-memory/user_journey.md`.
-5. Read the UI/UX blueprint:
+6. Read the UI/UX blueprint:
    `examples/business-school-interview-memory/uiux_blueprint.md`.
-6. Run the mock pipeline and inspect the generated candidate packet.
-7. Use the worksheet and pilot template to adapt the pattern to a real workflow.
+7. Run the mock pipeline and inspect the generated candidate packet.
+8. Use the worksheet and pilot template to adapt the pattern to a real workflow.
 
 The repo is meant to help a team ask better questions:
 

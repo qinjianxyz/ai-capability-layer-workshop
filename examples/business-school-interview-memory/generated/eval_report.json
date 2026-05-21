@@ -1,0 +1,212 @@
+{
+  "checks": [
+    {
+      "detail": "synthetic",
+      "id": "candidate_is_synthetic",
+      "passed": true
+    },
+    {
+      "detail": "30/30",
+      "id": "record_count",
+      "passed": true
+    },
+    {
+      "detail": "1.0000",
+      "id": "rubric_weights_sum_to_one",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "id": "observation_domains_known",
+      "passed": true
+    },
+    {
+      "detail": "1.000",
+      "id": "provenance_coverage",
+      "passed": true
+    },
+    {
+      "detail": "1.000",
+      "id": "domain_coverage",
+      "passed": true
+    },
+    {
+      "detail": "1.000",
+      "id": "retrieval_hit_at_3",
+      "passed": true
+    },
+    {
+      "detail": "recommend expected recommend",
+      "id": "recommendation_matches_expected",
+      "passed": true
+    },
+    {
+      "detail": "78.0 >= 76",
+      "id": "composite_index_threshold",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "id": "no_forbidden_recommendation_labels",
+      "passed": true
+    }
+  ],
+  "retrieval_benchmark": {
+    "hit_at_3": 1.0,
+    "query_results": [
+      {
+        "expected_domain": "entrepreneurial_builder",
+        "hit_at_3": true,
+        "query": "builder mindset shipped real systems",
+        "top_3": [
+          {
+            "asset_id": "MEM-INT-016-OBS-01",
+            "claim": "Asked to mock the entire business school process instead of waiting for perfect real data.",
+            "domain": "entrepreneurial_builder",
+            "polarity": "green",
+            "source_interview_id": "INT-016"
+          },
+          {
+            "asset_id": "MEM-INT-024-OBS-01",
+            "claim": "Repeatedly turns conceptual requirements into buildable systems with tests.",
+            "domain": "entrepreneurial_builder",
+            "polarity": "green",
+            "source_interview_id": "INT-024"
+          },
+          {
+            "asset_id": "MEM-INT-013-OBS-02",
+            "claim": "Needs explicit validation boundaries before using composite indices in real selection.",
+            "domain": "ethical_judgment",
+            "polarity": "missing",
+            "source_interview_id": "INT-013"
+          }
+        ]
+      },
+      {
+        "expected_domain": "learning_velocity",
+        "hit_at_3": true,
+        "query": "learning velocity updates beliefs after feedback",
+        "top_3": [
+          {
+            "asset_id": "MEM-INT-011-OBS-02",
+            "claim": "Recognized that deep research should enrich and validate after local requirements are clearer.",
+            "domain": "learning_velocity",
+            "polarity": "green",
+            "source_interview_id": "INT-011"
+          },
+          {
+            "asset_id": "MEM-INT-017-OBS-01",
+            "claim": "Placed deep research after local requirement discovery so it can validate and enrich rather than dominate.",
+            "domain": "learning_velocity",
+            "polarity": "green",
+            "source_interview_id": "INT-017"
+          },
+          {
+            "asset_id": "MEM-INT-001-OBS-01",
+            "claim": "Connected the interview system to faculty leverage and institutional learning rather than generic AI novelty.",
+            "domain": "mission_fit",
+            "polarity": "green",
+            "source_interview_id": "INT-001"
+          }
+        ]
+      },
+      {
+        "expected_domain": "collaboration_maturity",
+        "hit_at_3": true,
+        "query": "red flags over scoping collaboration risk",
+        "top_3": [
+          {
+            "asset_id": "MEM-INT-004-OBS-02",
+            "claim": "Clarified that recommendations should expose evidence, confidence, and red flags.",
+            "domain": "communication_clarity",
+            "polarity": "green",
+            "source_interview_id": "INT-004"
+          },
+          {
+            "asset_id": "MEM-INT-007-OBS-01",
+            "claim": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and recommendations.",
+            "domain": "entrepreneurial_builder",
+            "polarity": "green",
+            "source_interview_id": "INT-007"
+          },
+          {
+            "asset_id": "MEM-INT-003-OBS-02",
+            "claim": "May create large ambition faster than stakeholders can digest unless the scope is actively bounded.",
+            "domain": "collaboration_maturity",
+            "polarity": "red",
+            "source_interview_id": "INT-003"
+          }
+        ]
+      },
+      {
+        "expected_domain": "ethical_judgment",
+        "hit_at_3": true,
+        "query": "ethical judgment privacy governance boundaries",
+        "top_3": [
+          {
+            "asset_id": "MEM-INT-013-OBS-02",
+            "claim": "Needs explicit validation boundaries before using composite indices in real selection.",
+            "domain": "ethical_judgment",
+            "polarity": "missing",
+            "source_interview_id": "INT-013"
+          },
+          {
+            "asset_id": "MEM-INT-015-OBS-01",
+            "claim": "Understands that the school's advantage could come from compounding faculty judgment.",
+            "domain": "mission_fit",
+            "polarity": "green",
+            "source_interview_id": "INT-015"
+          },
+          {
+            "asset_id": "MEM-INT-004-OBS-01",
+            "claim": "Drew a boundary between useful recommendations and automated admit/reject execution.",
+            "domain": "ethical_judgment",
+            "polarity": "green",
+            "source_interview_id": "INT-004"
+          }
+        ]
+      },
+      {
+        "expected_domain": "communication_clarity",
+        "hit_at_3": true,
+        "query": "communication clarity explains tradeoffs",
+        "top_3": [
+          {
+            "asset_id": "MEM-INT-001-OBS-02",
+            "claim": "Separated final human decision authority from evidence-backed recommendations.",
+            "domain": "communication_clarity",
+            "polarity": "green",
+            "source_interview_id": "INT-001"
+          },
+          {
+            "asset_id": "MEM-INT-004-OBS-02",
+            "claim": "Clarified that recommendations should expose evidence, confidence, and red flags.",
+            "domain": "communication_clarity",
+            "polarity": "green",
+            "source_interview_id": "INT-004"
+          },
+          {
+            "asset_id": "MEM-INT-008-OBS-01",
+            "claim": "Named benchmarkable quality dimensions such as memory reliability and eval performance.",
+            "domain": "communication_clarity",
+            "polarity": "green",
+            "source_interview_id": "INT-008"
+          }
+        ]
+      }
+    ],
+    "schema_version": "retrieval_benchmark.v1"
+  },
+  "schema_version": "interview_memory_eval_report.v1",
+  "status": "PASS",
+  "summary": {
+    "candidate_id": "CAND-JQ-001",
+    "composite_index": 78.0,
+    "domain_coverage": 1.0,
+    "memory_asset_count": 60,
+    "provenance_coverage": 1.0,
+    "recommendation": "recommend",
+    "record_count": 30,
+    "retrieval_hit_at_3": 1.0
+  }
+}

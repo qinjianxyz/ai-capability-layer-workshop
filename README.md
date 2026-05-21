@@ -28,6 +28,9 @@ A useful AI capability is a supervised path from allowed inputs to reviewed arti
 - `governance_boundary.md` - data classes and review rules.
 - `pilot_template.md` - 30-day pilot plan.
 - `live_build_workflow_kit.md` - optional repo-backed build instructions.
+- `examples/business-school-interview-memory/` - end-to-end synthetic interview
+  memory system with mock data, rubric, GBrain-style memory graph, evaluator,
+  and benchmarks.
 
 ## Data Rule
 

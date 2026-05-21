@@ -1,0 +1,39 @@
+{
+  "schema_version": "business_school_interview_memory.expected_eval.v1",
+  "expected_candidate_id": "CAND-JQ-001",
+  "expected_record_count": 30,
+  "expected_recommendation": "recommend",
+  "minimum_composite_index": 76,
+  "minimum_retrieval_hit_at_3": 0.8,
+  "minimum_provenance_coverage": 1.0,
+  "minimum_domain_coverage": 1.0,
+  "maximum_forbidden_label_count": 0,
+  "critical_domains": [
+    "learning_velocity",
+    "entrepreneurial_builder",
+    "communication_clarity",
+    "ethical_judgment"
+  ],
+  "benchmark_queries": [
+    {
+      "query": "builder mindset shipped real systems",
+      "expected_domain": "entrepreneurial_builder"
+    },
+    {
+      "query": "learning velocity updates beliefs after feedback",
+      "expected_domain": "learning_velocity"
+    },
+    {
+      "query": "red flags over scoping collaboration risk",
+      "expected_domain": "collaboration_maturity"
+    },
+    {
+      "query": "ethical judgment privacy governance boundaries",
+      "expected_domain": "ethical_judgment"
+    },
+    {
+      "query": "communication clarity explains tradeoffs",
+      "expected_domain": "communication_clarity"
+    }
+  ]
+}

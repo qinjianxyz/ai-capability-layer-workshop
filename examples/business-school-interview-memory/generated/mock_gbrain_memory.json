@@ -1,0 +1,4052 @@
+{
+  "candidate_id": "CAND-JQ-001",
+  "canonical_assets": [
+    {
+      "asset_id": "MEM-INT-001-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Connected the interview system to faculty leverage and institutional learning rather than generic AI novelty.",
+      "confidence": 0.87,
+      "domain": "mission_fit",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-001",
+      "source_observation_id": "INT-001-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-001-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Separated final human decision authority from evidence-backed recommendations.",
+      "confidence": 0.8,
+      "domain": "communication_clarity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-001",
+      "source_observation_id": "INT-001-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-002-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Insisted on building an end-to-end mock system rather than stopping at a business plan.",
+      "confidence": 0.92,
+      "domain": "entrepreneurial_builder",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-002",
+      "source_observation_id": "INT-002-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-002-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Defined a concrete build target: 30 mock interviews, rubric, memory, evaluation, and benchmarks.",
+      "confidence": 0.86,
+      "domain": "execution_evidence",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-002",
+      "source_observation_id": "INT-002-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-003-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Immediately updated the requirement from presentation artifact to reliability and evaluation infrastructure.",
+      "confidence": 0.84,
+      "domain": "learning_velocity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-003",
+      "source_observation_id": "INT-003-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-003-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "May create large ambition faster than stakeholders can digest unless the scope is actively bounded.",
+      "confidence": 0.72,
+      "domain": "collaboration_maturity",
+      "polarity": "red",
+      "risk_flag": "over_claiming",
+      "source_interview_id": "INT-003",
+      "source_observation_id": "INT-003-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-004-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Drew a boundary between useful recommendations and automated admit/reject execution.",
+      "confidence": 0.83,
+      "domain": "ethical_judgment",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-004",
+      "source_observation_id": "INT-004-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-004-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Clarified that recommendations should expose evidence, confidence, and red flags.",
+      "confidence": 0.77,
+      "domain": "communication_clarity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-004",
+      "source_observation_id": "INT-004-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-005-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Asked for evals, benchmarks, and reliability checks before trusting the output.",
+      "confidence": 0.85,
+      "domain": "ethical_judgment",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-005",
+      "source_observation_id": "INT-005-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-005-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Specified that mocks should validate the full path from raw notes to memory and recommendation.",
+      "confidence": 0.78,
+      "domain": "execution_evidence",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-005",
+      "source_observation_id": "INT-005-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-006-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Interrupted a premature artifact and redirected the team toward memory quality and end-to-end reliability.",
+      "confidence": 0.86,
+      "domain": "leadership_initiative",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-006",
+      "source_observation_id": "INT-006-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-006-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Correction was direct but constructive, naming the better focus and next step.",
+      "confidence": 0.69,
+      "domain": "collaboration_maturity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-006",
+      "source_observation_id": "INT-006-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-007-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and recommendations.",
+      "confidence": 0.82,
+      "domain": "entrepreneurial_builder",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-007",
+      "source_observation_id": "INT-007-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-007-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Focused on usefulness to faculty decision-making rather than a polished archive.",
+      "confidence": 0.76,
+      "domain": "mission_fit",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-007",
+      "source_observation_id": "INT-007-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-008-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Named benchmarkable quality dimensions such as memory reliability and eval performance.",
+      "confidence": 0.75,
+      "domain": "communication_clarity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-008",
+      "source_observation_id": "INT-008-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-008-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Needs a sharper business metric for Link School adoption beyond technical correctness.",
+      "confidence": 0.68,
+      "domain": "mission_fit",
+      "polarity": "missing",
+      "risk_flag": "missing_core_evidence",
+      "source_interview_id": "INT-008",
+      "source_observation_id": "INT-008-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-009-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Converted a vague interviewing workflow into datasets, rubrics, memory databases, evals, and benchmarks.",
+      "confidence": 0.88,
+      "domain": "execution_evidence",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-009",
+      "source_observation_id": "INT-009-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-009-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Used critique to sharpen implementation requirements instead of defending the first draft.",
+      "confidence": 0.82,
+      "domain": "learning_velocity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-009",
+      "source_observation_id": "INT-009-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-010-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Fast critique could overwhelm collaborators if not paired with explicit shared framing.",
+      "confidence": 0.73,
+      "domain": "collaboration_maturity",
+      "polarity": "red",
+      "risk_flag": "weak_listening_signal",
+      "source_interview_id": "INT-010",
+      "source_observation_id": "INT-010-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-010-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Creates momentum by naming what matters most and moving the group toward it.",
+      "confidence": 0.81,
+      "domain": "leadership_initiative",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-010",
+      "source_observation_id": "INT-010-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-011-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Asked to build the capability layer itself: memory, evals, benchmarks, and mock end-to-end workflow.",
+      "confidence": 0.89,
+      "domain": "entrepreneurial_builder",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-011",
+      "source_observation_id": "INT-011-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-011-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Recognized that deep research should enrich and validate after local requirements are clearer.",
+      "confidence": 0.8,
+      "domain": "learning_velocity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-011",
+      "source_observation_id": "INT-011-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-012-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Accepted holistic recommendations while preserving human final decision responsibility.",
+      "confidence": 0.81,
+      "domain": "ethical_judgment",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-012",
+      "source_observation_id": "INT-012-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-012-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Expressed the difference between recommendation and automation in plain language.",
+      "confidence": 0.78,
+      "domain": "communication_clarity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-012",
+      "source_observation_id": "INT-012-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-013-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Wanted benchmarks that test whether the system is reliable, not just plausible.",
+      "confidence": 0.79,
+      "domain": "learning_velocity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-013",
+      "source_observation_id": "INT-013-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-013-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Needs explicit validation boundaries before using composite indices in real selection.",
+      "confidence": 0.64,
+      "domain": "ethical_judgment",
+      "polarity": "missing",
+      "risk_flag": "missing_core_evidence",
+      "source_interview_id": "INT-013",
+      "source_observation_id": "INT-013-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-014-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Clearly named the priority shift: memory quality, evals, benchmarks, reliability.",
+      "confidence": 0.74,
+      "domain": "communication_clarity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-014",
+      "source_observation_id": "INT-014-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-014-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "May need to translate technical architecture into faculty-friendly language more consistently.",
+      "confidence": 0.67,
+      "domain": "communication_clarity",
+      "polarity": "red",
+      "risk_flag": "weak_listening_signal",
+      "source_interview_id": "INT-014",
+      "source_observation_id": "INT-014-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-015-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Understands that the school's advantage could come from compounding faculty judgment.",
+      "confidence": 0.86,
+      "domain": "mission_fit",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-015",
+      "source_observation_id": "INT-015-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-015-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Can identify a strategic institutional bottleneck and turn it into an operating system.",
+      "confidence": 0.84,
+      "domain": "leadership_initiative",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-015",
+      "source_observation_id": "INT-015-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-016-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Asked to mock the entire business school process instead of waiting for perfect real data.",
+      "confidence": 0.9,
+      "domain": "entrepreneurial_builder",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-016",
+      "source_observation_id": "INT-016-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-016-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Defined enough structure for immediate implementation: rubric, memory database, evals, and end-to-end run.",
+      "confidence": 0.81,
+      "domain": "execution_evidence",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-016",
+      "source_observation_id": "INT-016-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-017-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Placed deep research after local requirement discovery so it can validate and enrich rather than dominate.",
+      "confidence": 0.88,
+      "domain": "learning_velocity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-017",
+      "source_observation_id": "INT-017-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-017-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Requested evals and benchmarks as first-class artifacts.",
+      "confidence": 0.8,
+      "domain": "execution_evidence",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-017",
+      "source_observation_id": "INT-017-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-018-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Engages directly with feedback and changes course when the critique is valid.",
+      "confidence": 0.71,
+      "domain": "collaboration_maturity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-018",
+      "source_observation_id": "INT-018-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-018-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "May need explicit cohort norms around pacing, listening, and shared ownership.",
+      "confidence": 0.66,
+      "domain": "collaboration_maturity",
+      "polarity": "red",
+      "risk_flag": "poor_team_maturity",
+      "source_interview_id": "INT-018",
+      "source_observation_id": "INT-018-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-019-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Recognizes that human final authority and auditability are the core boundary.",
+      "confidence": 0.82,
+      "domain": "ethical_judgment",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-019",
+      "source_observation_id": "INT-019-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-019-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Pushed past excessive caution toward a more useful recommendation product.",
+      "confidence": 0.74,
+      "domain": "entrepreneurial_builder",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-019",
+      "source_observation_id": "INT-019-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-020-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Frames the work as helping faculty avoid starting from scratch.",
+      "confidence": 0.73,
+      "domain": "mission_fit",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-020",
+      "source_observation_id": "INT-020-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-020-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Needs clearer buyer-facing value narrative after the technical mock works.",
+      "confidence": 0.62,
+      "domain": "communication_clarity",
+      "polarity": "missing",
+      "risk_flag": "missing_core_evidence",
+      "source_interview_id": "INT-020",
+      "source_observation_id": "INT-020-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-021-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Asked to build mock databases and run the process end to end.",
+      "confidence": 0.87,
+      "domain": "execution_evidence",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-021",
+      "source_observation_id": "INT-021-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-021-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Set a concrete next milestone for the team rather than leaving the idea abstract.",
+      "confidence": 0.79,
+      "domain": "leadership_initiative",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-021",
+      "source_observation_id": "INT-021-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-022-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Understands that reusable interview memory can become a school-specific capability.",
+      "confidence": 0.79,
+      "domain": "mission_fit",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-022",
+      "source_observation_id": "INT-022-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-022-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Recognizes that the product should not be another reading surface, but an active evaluation system.",
+      "confidence": 0.82,
+      "domain": "entrepreneurial_builder",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-022",
+      "source_observation_id": "INT-022-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-023-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Separated local mock evals from later deep research validation.",
+      "confidence": 0.8,
+      "domain": "learning_velocity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-023",
+      "source_observation_id": "INT-023-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-023-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Did not overclaim that composite indices are validated admissions science.",
+      "confidence": 0.75,
+      "domain": "ethical_judgment",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-023",
+      "source_observation_id": "INT-023-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-024-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Repeatedly turns conceptual requirements into buildable systems with tests.",
+      "confidence": 0.88,
+      "domain": "entrepreneurial_builder",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-024",
+      "source_observation_id": "INT-024-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-024-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Willing to call out when the current work is optimizing the wrong layer.",
+      "confidence": 0.79,
+      "domain": "leadership_initiative",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-024",
+      "source_observation_id": "INT-024-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-025-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Accepted that requirements need to be nailed down before the plan is trusted.",
+      "confidence": 0.77,
+      "domain": "collaboration_maturity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-025",
+      "source_observation_id": "INT-025-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-025-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Uses critique as fuel for a better system rather than as a threat.",
+      "confidence": 0.78,
+      "domain": "learning_velocity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-025",
+      "source_observation_id": "INT-025-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-026-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Demanded mock artifacts that can be inspected and rerun.",
+      "confidence": 0.8,
+      "domain": "execution_evidence",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-026",
+      "source_observation_id": "INT-026-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-026-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "The desired output is clear enough to implement: evidence, domains, composite index, recommendation.",
+      "confidence": 0.72,
+      "domain": "communication_clarity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-026",
+      "source_observation_id": "INT-026-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-027-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "The final boundary is useful recommendation plus transparent evidence, not automation.",
+      "confidence": 0.81,
+      "domain": "ethical_judgment",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-027",
+      "source_observation_id": "INT-027-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-027-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Shows interest in making faculty decisions more reliable, not replacing faculty.",
+      "confidence": 0.72,
+      "domain": "mission_fit",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-027",
+      "source_observation_id": "INT-027-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-028-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Pushes peers toward higher standards and more concrete proof.",
+      "confidence": 0.78,
+      "domain": "leadership_initiative",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-028",
+      "source_observation_id": "INT-028-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-028-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Need more evidence on how the candidate behaves in slower group settings.",
+      "confidence": 0.61,
+      "domain": "collaboration_maturity",
+      "polarity": "missing",
+      "risk_flag": "missing_core_evidence",
+      "source_interview_id": "INT-028",
+      "source_observation_id": "INT-028-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-029-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Can define and pressure-test an ambitious capstone-like system quickly.",
+      "confidence": 0.86,
+      "domain": "execution_evidence",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-029",
+      "source_observation_id": "INT-029-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-029-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Would benefit from a faculty sponsor who helps sequence ambition into milestones.",
+      "confidence": 0.7,
+      "domain": "collaboration_maturity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-029",
+      "source_observation_id": "INT-029-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-030-OBS-01",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Candidate fits a school that values building, reflection, and practical AI capability design.",
+      "confidence": 0.84,
+      "domain": "mission_fit",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-030",
+      "source_observation_id": "INT-030-OBS-01",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    },
+    {
+      "asset_id": "MEM-INT-030-OBS-02",
+      "candidate_id": "CAND-JQ-001",
+      "claim": "Risks are real but coachable: pacing, translation, and shared ownership.",
+      "confidence": 0.72,
+      "domain": "collaboration_maturity",
+      "polarity": "green",
+      "risk_flag": null,
+      "source_interview_id": "INT-030",
+      "source_observation_id": "INT-030-OBS-02",
+      "status": "approved_mock",
+      "type": "canonical_memory_asset"
+    }
+  ],
+  "description": "GBrain-style graph: raw evidence, canonical memory, rubric domains, and provenance edges.",
+  "edges": [
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-001",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-002",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-003",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-004",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-005",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-006",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-007",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-008",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-009",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-010",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-011",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-012",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-013",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-014",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-015",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-016",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-017",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-018",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-019",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-020",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-021",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-022",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-023",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-024",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-025",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-026",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-027",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-028",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-029",
+      "type": "has_interview"
+    },
+    {
+      "source": "CAND-JQ-001",
+      "target": "INT-030",
+      "type": "has_interview"
+    },
+    {
+      "source": "INT-001",
+      "target": "INT-001-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-001-OBS-01",
+      "target": "MEM-INT-001-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-001-OBS-01",
+      "target": "RUBRIC-mission_fit",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-001",
+      "target": "INT-001-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-001-OBS-02",
+      "target": "MEM-INT-001-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-001-OBS-02",
+      "target": "RUBRIC-communication_clarity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-002",
+      "target": "INT-002-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-002-OBS-01",
+      "target": "MEM-INT-002-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-002-OBS-01",
+      "target": "RUBRIC-entrepreneurial_builder",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-002",
+      "target": "INT-002-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-002-OBS-02",
+      "target": "MEM-INT-002-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-002-OBS-02",
+      "target": "RUBRIC-execution_evidence",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-003",
+      "target": "INT-003-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-003-OBS-01",
+      "target": "MEM-INT-003-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-003-OBS-01",
+      "target": "RUBRIC-learning_velocity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-003",
+      "target": "INT-003-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-003-OBS-02",
+      "target": "MEM-INT-003-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-003-OBS-02",
+      "target": "RUBRIC-collaboration_maturity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-004",
+      "target": "INT-004-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-004-OBS-01",
+      "target": "MEM-INT-004-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-004-OBS-01",
+      "target": "RUBRIC-ethical_judgment",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-004",
+      "target": "INT-004-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-004-OBS-02",
+      "target": "MEM-INT-004-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-004-OBS-02",
+      "target": "RUBRIC-communication_clarity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-005",
+      "target": "INT-005-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-005-OBS-01",
+      "target": "MEM-INT-005-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-005-OBS-01",
+      "target": "RUBRIC-ethical_judgment",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-005",
+      "target": "INT-005-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-005-OBS-02",
+      "target": "MEM-INT-005-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-005-OBS-02",
+      "target": "RUBRIC-execution_evidence",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-006",
+      "target": "INT-006-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-006-OBS-01",
+      "target": "MEM-INT-006-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-006-OBS-01",
+      "target": "RUBRIC-leadership_initiative",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-006",
+      "target": "INT-006-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-006-OBS-02",
+      "target": "MEM-INT-006-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-006-OBS-02",
+      "target": "RUBRIC-collaboration_maturity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-007",
+      "target": "INT-007-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-007-OBS-01",
+      "target": "MEM-INT-007-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-007-OBS-01",
+      "target": "RUBRIC-entrepreneurial_builder",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-007",
+      "target": "INT-007-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-007-OBS-02",
+      "target": "MEM-INT-007-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-007-OBS-02",
+      "target": "RUBRIC-mission_fit",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-008",
+      "target": "INT-008-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-008-OBS-01",
+      "target": "MEM-INT-008-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-008-OBS-01",
+      "target": "RUBRIC-communication_clarity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-008",
+      "target": "INT-008-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-008-OBS-02",
+      "target": "MEM-INT-008-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-008-OBS-02",
+      "target": "RUBRIC-mission_fit",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-009",
+      "target": "INT-009-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-009-OBS-01",
+      "target": "MEM-INT-009-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-009-OBS-01",
+      "target": "RUBRIC-execution_evidence",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-009",
+      "target": "INT-009-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-009-OBS-02",
+      "target": "MEM-INT-009-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-009-OBS-02",
+      "target": "RUBRIC-learning_velocity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-010",
+      "target": "INT-010-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-010-OBS-01",
+      "target": "MEM-INT-010-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-010-OBS-01",
+      "target": "RUBRIC-collaboration_maturity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-010",
+      "target": "INT-010-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-010-OBS-02",
+      "target": "MEM-INT-010-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-010-OBS-02",
+      "target": "RUBRIC-leadership_initiative",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-011",
+      "target": "INT-011-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-011-OBS-01",
+      "target": "MEM-INT-011-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-011-OBS-01",
+      "target": "RUBRIC-entrepreneurial_builder",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-011",
+      "target": "INT-011-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-011-OBS-02",
+      "target": "MEM-INT-011-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-011-OBS-02",
+      "target": "RUBRIC-learning_velocity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-012",
+      "target": "INT-012-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-012-OBS-01",
+      "target": "MEM-INT-012-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-012-OBS-01",
+      "target": "RUBRIC-ethical_judgment",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-012",
+      "target": "INT-012-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-012-OBS-02",
+      "target": "MEM-INT-012-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-012-OBS-02",
+      "target": "RUBRIC-communication_clarity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-013",
+      "target": "INT-013-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-013-OBS-01",
+      "target": "MEM-INT-013-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-013-OBS-01",
+      "target": "RUBRIC-learning_velocity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-013",
+      "target": "INT-013-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-013-OBS-02",
+      "target": "MEM-INT-013-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-013-OBS-02",
+      "target": "RUBRIC-ethical_judgment",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-014",
+      "target": "INT-014-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-014-OBS-01",
+      "target": "MEM-INT-014-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-014-OBS-01",
+      "target": "RUBRIC-communication_clarity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-014",
+      "target": "INT-014-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-014-OBS-02",
+      "target": "MEM-INT-014-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-014-OBS-02",
+      "target": "RUBRIC-communication_clarity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-015",
+      "target": "INT-015-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-015-OBS-01",
+      "target": "MEM-INT-015-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-015-OBS-01",
+      "target": "RUBRIC-mission_fit",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-015",
+      "target": "INT-015-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-015-OBS-02",
+      "target": "MEM-INT-015-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-015-OBS-02",
+      "target": "RUBRIC-leadership_initiative",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-016",
+      "target": "INT-016-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-016-OBS-01",
+      "target": "MEM-INT-016-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-016-OBS-01",
+      "target": "RUBRIC-entrepreneurial_builder",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-016",
+      "target": "INT-016-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-016-OBS-02",
+      "target": "MEM-INT-016-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-016-OBS-02",
+      "target": "RUBRIC-execution_evidence",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-017",
+      "target": "INT-017-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-017-OBS-01",
+      "target": "MEM-INT-017-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-017-OBS-01",
+      "target": "RUBRIC-learning_velocity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-017",
+      "target": "INT-017-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-017-OBS-02",
+      "target": "MEM-INT-017-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-017-OBS-02",
+      "target": "RUBRIC-execution_evidence",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-018",
+      "target": "INT-018-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-018-OBS-01",
+      "target": "MEM-INT-018-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-018-OBS-01",
+      "target": "RUBRIC-collaboration_maturity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-018",
+      "target": "INT-018-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-018-OBS-02",
+      "target": "MEM-INT-018-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-018-OBS-02",
+      "target": "RUBRIC-collaboration_maturity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-019",
+      "target": "INT-019-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-019-OBS-01",
+      "target": "MEM-INT-019-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-019-OBS-01",
+      "target": "RUBRIC-ethical_judgment",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-019",
+      "target": "INT-019-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-019-OBS-02",
+      "target": "MEM-INT-019-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-019-OBS-02",
+      "target": "RUBRIC-entrepreneurial_builder",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-020",
+      "target": "INT-020-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-020-OBS-01",
+      "target": "MEM-INT-020-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-020-OBS-01",
+      "target": "RUBRIC-mission_fit",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-020",
+      "target": "INT-020-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-020-OBS-02",
+      "target": "MEM-INT-020-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-020-OBS-02",
+      "target": "RUBRIC-communication_clarity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-021",
+      "target": "INT-021-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-021-OBS-01",
+      "target": "MEM-INT-021-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-021-OBS-01",
+      "target": "RUBRIC-execution_evidence",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-021",
+      "target": "INT-021-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-021-OBS-02",
+      "target": "MEM-INT-021-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-021-OBS-02",
+      "target": "RUBRIC-leadership_initiative",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-022",
+      "target": "INT-022-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-022-OBS-01",
+      "target": "MEM-INT-022-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-022-OBS-01",
+      "target": "RUBRIC-mission_fit",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-022",
+      "target": "INT-022-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-022-OBS-02",
+      "target": "MEM-INT-022-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-022-OBS-02",
+      "target": "RUBRIC-entrepreneurial_builder",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-023",
+      "target": "INT-023-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-023-OBS-01",
+      "target": "MEM-INT-023-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-023-OBS-01",
+      "target": "RUBRIC-learning_velocity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-023",
+      "target": "INT-023-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-023-OBS-02",
+      "target": "MEM-INT-023-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-023-OBS-02",
+      "target": "RUBRIC-ethical_judgment",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-024",
+      "target": "INT-024-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-024-OBS-01",
+      "target": "MEM-INT-024-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-024-OBS-01",
+      "target": "RUBRIC-entrepreneurial_builder",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-024",
+      "target": "INT-024-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-024-OBS-02",
+      "target": "MEM-INT-024-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-024-OBS-02",
+      "target": "RUBRIC-leadership_initiative",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-025",
+      "target": "INT-025-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-025-OBS-01",
+      "target": "MEM-INT-025-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-025-OBS-01",
+      "target": "RUBRIC-collaboration_maturity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-025",
+      "target": "INT-025-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-025-OBS-02",
+      "target": "MEM-INT-025-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-025-OBS-02",
+      "target": "RUBRIC-learning_velocity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-026",
+      "target": "INT-026-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-026-OBS-01",
+      "target": "MEM-INT-026-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-026-OBS-01",
+      "target": "RUBRIC-execution_evidence",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-026",
+      "target": "INT-026-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-026-OBS-02",
+      "target": "MEM-INT-026-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-026-OBS-02",
+      "target": "RUBRIC-communication_clarity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-027",
+      "target": "INT-027-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-027-OBS-01",
+      "target": "MEM-INT-027-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-027-OBS-01",
+      "target": "RUBRIC-ethical_judgment",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-027",
+      "target": "INT-027-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-027-OBS-02",
+      "target": "MEM-INT-027-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-027-OBS-02",
+      "target": "RUBRIC-mission_fit",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-028",
+      "target": "INT-028-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-028-OBS-01",
+      "target": "MEM-INT-028-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-028-OBS-01",
+      "target": "RUBRIC-leadership_initiative",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-028",
+      "target": "INT-028-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-028-OBS-02",
+      "target": "MEM-INT-028-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-028-OBS-02",
+      "target": "RUBRIC-collaboration_maturity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-029",
+      "target": "INT-029-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-029-OBS-01",
+      "target": "MEM-INT-029-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-029-OBS-01",
+      "target": "RUBRIC-execution_evidence",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-029",
+      "target": "INT-029-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-029-OBS-02",
+      "target": "MEM-INT-029-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-029-OBS-02",
+      "target": "RUBRIC-collaboration_maturity",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-030",
+      "target": "INT-030-OBS-01",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-030-OBS-01",
+      "target": "MEM-INT-030-OBS-01",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-030-OBS-01",
+      "target": "RUBRIC-mission_fit",
+      "type": "indexes_domain"
+    },
+    {
+      "source": "INT-030",
+      "target": "INT-030-OBS-02",
+      "type": "contains_observation"
+    },
+    {
+      "source": "INT-030-OBS-02",
+      "target": "MEM-INT-030-OBS-02",
+      "type": "promoted_to_memory"
+    },
+    {
+      "source": "MEM-INT-030-OBS-02",
+      "target": "RUBRIC-collaboration_maturity",
+      "type": "indexes_domain"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "CAND-JQ-001",
+      "label": "Workshop Candidate: Jian",
+      "properties": {
+        "data_class": "synthetic",
+        "scenario_note": "Synthetic self-evaluation scenario for a business school interview memory workshop. This is not an admissions record."
+      },
+      "type": "candidate"
+    },
+    {
+      "id": "RUBRIC-learning_velocity",
+      "label": "learning_velocity",
+      "properties": {
+        "description": "Learns quickly, updates beliefs, and turns feedback into better execution.",
+        "weight": 0.16
+      },
+      "type": "rubric_domain"
+    },
+    {
+      "id": "RUBRIC-entrepreneurial_builder",
+      "label": "entrepreneurial_builder",
+      "properties": {
+        "description": "Builds real things, finds opportunities, and acts under ambiguity.",
+        "weight": 0.17
+      },
+      "type": "rubric_domain"
+    },
+    {
+      "id": "RUBRIC-leadership_initiative",
+      "label": "leadership_initiative",
+      "properties": {
+        "description": "Creates direction, mobilizes others, and owns outcomes.",
+        "weight": 0.13
+      },
+      "type": "rubric_domain"
+    },
+    {
+      "id": "RUBRIC-communication_clarity",
+      "label": "communication_clarity",
+      "properties": {
+        "description": "Explains tradeoffs, evidence, and decisions clearly.",
+        "weight": 0.12
+      },
+      "type": "rubric_domain"
+    },
+    {
+      "id": "RUBRIC-collaboration_maturity",
+      "label": "collaboration_maturity",
+      "properties": {
+        "description": "Listens, shares credit, and improves team decisions.",
+        "weight": 0.11
+      },
+      "type": "rubric_domain"
+    },
+    {
+      "id": "RUBRIC-mission_fit",
+      "label": "mission_fit",
+      "properties": {
+        "description": "Understands the school, contributes to the cohort, and uses business for impact.",
+        "weight": 0.12
+      },
+      "type": "rubric_domain"
+    },
+    {
+      "id": "RUBRIC-execution_evidence",
+      "label": "execution_evidence",
+      "properties": {
+        "description": "Has shipped work, measured outcomes, and persisted through hard constraints.",
+        "weight": 0.11
+      },
+      "type": "rubric_domain"
+    },
+    {
+      "id": "RUBRIC-ethical_judgment",
+      "label": "ethical_judgment",
+      "properties": {
+        "description": "Names risks, respects boundaries, and handles power and data responsibly.",
+        "weight": 0.08
+      },
+      "type": "rubric_domain"
+    },
+    {
+      "id": "INT-001",
+      "label": "INT-001: strategy professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "strategy professor",
+        "stage": "faculty",
+        "summary": "Candidate framed the school as a place to turn repeated tacit judgment into compounding systems."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-002",
+      "label": "INT-002: entrepreneurship professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "entrepreneurship professor",
+        "stage": "faculty",
+        "summary": "Candidate pushed for mocks, evals, and benchmarks before presentation polish."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-003",
+      "label": "INT-003: operations professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "operations professor",
+        "stage": "faculty",
+        "summary": "Candidate demonstrated strong systems thinking but a tendency to widen scope quickly."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-004",
+      "label": "INT-004: admissions lead",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "admissions lead",
+        "stage": "committee",
+        "summary": "Candidate was comfortable with recommendation labels while preserving human final authority."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-005",
+      "label": "INT-005: data ethics professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "data ethics professor",
+        "stage": "faculty",
+        "summary": "Candidate treated evaluation as auditable infrastructure instead of opaque scoring."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-006",
+      "label": "INT-006: leadership professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "leadership professor",
+        "stage": "faculty",
+        "summary": "Candidate showed founder-like urgency and ability to redirect work toward the highest-value layer."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-007",
+      "label": "INT-007: product professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "product professor",
+        "stage": "faculty",
+        "summary": "Candidate distinguished decision-support value from passive information storage."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-008",
+      "label": "INT-008: finance professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "finance professor",
+        "stage": "faculty",
+        "summary": "Candidate could quantify system quality but did not yet define ROI metrics for the school."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-009",
+      "label": "INT-009: program director",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "program director",
+        "stage": "committee",
+        "summary": "Candidate showed strong ability to make abstract AI workflow ideas concrete."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-010",
+      "label": "INT-010: organizational behavior professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "organizational behavior professor",
+        "stage": "faculty",
+        "summary": "Candidate values high standards and may need norms for pacing with a mixed-experience faculty group."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-011",
+      "label": "INT-011: innovation professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "innovation professor",
+        "stage": "faculty",
+        "summary": "Candidate showed a strong capability-layer mental model."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-012",
+      "label": "INT-012: faculty reviewer",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "faculty reviewer",
+        "stage": "committee",
+        "summary": "Candidate's recommendation philosophy is practical and human-centered."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-013",
+      "label": "INT-013: analytics professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "analytics professor",
+        "stage": "faculty",
+        "summary": "Candidate emphasized benchmark design, but the psychometric model remains unvalidated."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-014",
+      "label": "INT-014: communications professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "communications professor",
+        "stage": "faculty",
+        "summary": "Candidate can be concise when redirecting, but sometimes uses dense system language."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-015",
+      "label": "INT-015: dean",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "dean",
+        "stage": "committee",
+        "summary": "Candidate shows strong institutional imagination and a bias toward durable learning systems."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-016",
+      "label": "INT-016: entrepreneur-in-residence",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "entrepreneur-in-residence",
+        "stage": "faculty",
+        "summary": "Candidate appears unusually strong at building from first principles under ambiguity."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-017",
+      "label": "INT-017: systems professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "systems professor",
+        "stage": "faculty",
+        "summary": "Candidate thinks in feedback loops and reliability gates."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-018",
+      "label": "INT-018: student experience lead",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "student experience lead",
+        "stage": "committee",
+        "summary": "Candidate's intensity could be a positive cohort contribution if paired with humility."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-019",
+      "label": "INT-019: governance professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "governance professor",
+        "stage": "faculty",
+        "summary": "Candidate is alert to governance but needs to keep useful recommendations in scope."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-020",
+      "label": "INT-020: marketing professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "marketing professor",
+        "stage": "faculty",
+        "summary": "Candidate has a clear narrative about usefulness but has not yet named the buyer story fully."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-021",
+      "label": "INT-021: program operations lead",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "program operations lead",
+        "stage": "committee",
+        "summary": "Candidate sees implementation details that determine reliability."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-022",
+      "label": "INT-022: strategy professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "strategy professor",
+        "stage": "faculty",
+        "summary": "Candidate is strong on compounding advantage and differentiated workflows."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-023",
+      "label": "INT-023: research methods professor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "research methods professor",
+        "stage": "faculty",
+        "summary": "Candidate's benchmark instinct is strong, with unresolved validity-study design."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-024",
+      "label": "INT-024: faculty interviewer",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "faculty interviewer",
+        "stage": "committee",
+        "summary": "Candidate's strongest signal is builder energy tied to system-level thinking."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-025",
+      "label": "INT-025: career development lead",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "career development lead",
+        "stage": "faculty",
+        "summary": "Candidate can translate self-evaluation into concrete growth areas."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-026",
+      "label": "INT-026: admissions operations",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "admissions operations",
+        "stage": "committee",
+        "summary": "Candidate's process instincts align with operationalizing faculty judgment."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-027",
+      "label": "INT-027: ethics reviewer",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "ethics reviewer",
+        "stage": "faculty",
+        "summary": "Candidate balances usefulness and governance after calibration."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-028",
+      "label": "INT-028: peer interviewer",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "peer interviewer",
+        "stage": "committee",
+        "summary": "Candidate would likely raise the technical ambition of the cohort."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-029",
+      "label": "INT-029: capstone advisor",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "capstone advisor",
+        "stage": "faculty",
+        "summary": "Candidate has unusually strong capstone potential if scoped properly."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-030",
+      "label": "INT-030: final committee chair",
+      "properties": {
+        "data_class": "synthetic",
+        "interviewer_role": "final committee chair",
+        "stage": "committee",
+        "summary": "Overall evidence supports a strong recommendation with explicit discussion of pacing and collaboration risks."
+      },
+      "type": "raw_interview"
+    },
+    {
+      "id": "INT-001-OBS-01",
+      "label": "Connected the interview system to faculty leverage and institutional learning rather than generic AI novelty.",
+      "properties": {
+        "confidence": 0.87,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-001-OBS-01",
+      "label": "Connected the interview system to faculty leverage and institutional learning rather than generic AI novelty.",
+      "properties": {
+        "asset_id": "MEM-INT-001-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Connected the interview system to faculty leverage and institutional learning rather than generic AI novelty.",
+        "confidence": 0.87,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-001",
+        "source_observation_id": "INT-001-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-001-OBS-02",
+      "label": "Separated final human decision authority from evidence-backed recommendations.",
+      "properties": {
+        "confidence": 0.8,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-001-OBS-02",
+      "label": "Separated final human decision authority from evidence-backed recommendations.",
+      "properties": {
+        "asset_id": "MEM-INT-001-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Separated final human decision authority from evidence-backed recommendations.",
+        "confidence": 0.8,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-001",
+        "source_observation_id": "INT-001-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-002-OBS-01",
+      "label": "Insisted on building an end-to-end mock system rather than stopping at a business plan.",
+      "properties": {
+        "confidence": 0.92,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-002-OBS-01",
+      "label": "Insisted on building an end-to-end mock system rather than stopping at a business plan.",
+      "properties": {
+        "asset_id": "MEM-INT-002-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Insisted on building an end-to-end mock system rather than stopping at a business plan.",
+        "confidence": 0.92,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-002",
+        "source_observation_id": "INT-002-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-002-OBS-02",
+      "label": "Defined a concrete build target: 30 mock interviews, rubric, memory, evaluation, and benchmarks.",
+      "properties": {
+        "confidence": 0.86,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-002-OBS-02",
+      "label": "Defined a concrete build target: 30 mock interviews, rubric, memory, evaluation, and benchmarks.",
+      "properties": {
+        "asset_id": "MEM-INT-002-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Defined a concrete build target: 30 mock interviews, rubric, memory, evaluation, and benchmarks.",
+        "confidence": 0.86,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-002",
+        "source_observation_id": "INT-002-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-003-OBS-01",
+      "label": "Immediately updated the requirement from presentation artifact to reliability and evaluation infrastructure.",
+      "properties": {
+        "confidence": 0.84,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-003-OBS-01",
+      "label": "Immediately updated the requirement from presentation artifact to reliability and evaluation infrastructure.",
+      "properties": {
+        "asset_id": "MEM-INT-003-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Immediately updated the requirement from presentation artifact to reliability and evaluation infrastructure.",
+        "confidence": 0.84,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-003",
+        "source_observation_id": "INT-003-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-003-OBS-02",
+      "label": "May create large ambition faster than stakeholders can digest unless the scope is actively bounded.",
+      "properties": {
+        "confidence": 0.72,
+        "domain": "collaboration_maturity",
+        "polarity": "red",
+        "risk_flag": "over_claiming",
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-003-OBS-02",
+      "label": "May create large ambition faster than stakeholders can digest unless the scope is actively bounded.",
+      "properties": {
+        "asset_id": "MEM-INT-003-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "May create large ambition faster than stakeholders can digest unless the scope is actively bounded.",
+        "confidence": 0.72,
+        "domain": "collaboration_maturity",
+        "polarity": "red",
+        "risk_flag": "over_claiming",
+        "source_interview_id": "INT-003",
+        "source_observation_id": "INT-003-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-004-OBS-01",
+      "label": "Drew a boundary between useful recommendations and automated admit/reject execution.",
+      "properties": {
+        "confidence": 0.83,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-004-OBS-01",
+      "label": "Drew a boundary between useful recommendations and automated admit/reject execution.",
+      "properties": {
+        "asset_id": "MEM-INT-004-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Drew a boundary between useful recommendations and automated admit/reject execution.",
+        "confidence": 0.83,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-004",
+        "source_observation_id": "INT-004-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-004-OBS-02",
+      "label": "Clarified that recommendations should expose evidence, confidence, and red flags.",
+      "properties": {
+        "confidence": 0.77,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-004-OBS-02",
+      "label": "Clarified that recommendations should expose evidence, confidence, and red flags.",
+      "properties": {
+        "asset_id": "MEM-INT-004-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Clarified that recommendations should expose evidence, confidence, and red flags.",
+        "confidence": 0.77,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-004",
+        "source_observation_id": "INT-004-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-005-OBS-01",
+      "label": "Asked for evals, benchmarks, and reliability checks before trusting the output.",
+      "properties": {
+        "confidence": 0.85,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-005-OBS-01",
+      "label": "Asked for evals, benchmarks, and reliability checks before trusting the output.",
+      "properties": {
+        "asset_id": "MEM-INT-005-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Asked for evals, benchmarks, and reliability checks before trusting the output.",
+        "confidence": 0.85,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-005",
+        "source_observation_id": "INT-005-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-005-OBS-02",
+      "label": "Specified that mocks should validate the full path from raw notes to memory and recommendation.",
+      "properties": {
+        "confidence": 0.78,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-005-OBS-02",
+      "label": "Specified that mocks should validate the full path from raw notes to memory and recommendation.",
+      "properties": {
+        "asset_id": "MEM-INT-005-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Specified that mocks should validate the full path from raw notes to memory and recommendation.",
+        "confidence": 0.78,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-005",
+        "source_observation_id": "INT-005-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-006-OBS-01",
+      "label": "Interrupted a premature artifact and redirected the team toward memory quality and end-to-end reliability.",
+      "properties": {
+        "confidence": 0.86,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-006-OBS-01",
+      "label": "Interrupted a premature artifact and redirected the team toward memory quality and end-to-end reliability.",
+      "properties": {
+        "asset_id": "MEM-INT-006-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Interrupted a premature artifact and redirected the team toward memory quality and end-to-end reliability.",
+        "confidence": 0.86,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-006",
+        "source_observation_id": "INT-006-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-006-OBS-02",
+      "label": "Correction was direct but constructive, naming the better focus and next step.",
+      "properties": {
+        "confidence": 0.69,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-006-OBS-02",
+      "label": "Correction was direct but constructive, naming the better focus and next step.",
+      "properties": {
+        "asset_id": "MEM-INT-006-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Correction was direct but constructive, naming the better focus and next step.",
+        "confidence": 0.69,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-006",
+        "source_observation_id": "INT-006-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-007-OBS-01",
+      "label": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and recommendations.",
+      "properties": {
+        "confidence": 0.82,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-007-OBS-01",
+      "label": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and recommendations.",
+      "properties": {
+        "asset_id": "MEM-INT-007-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Rejected a passive ocean of information and asked for green flags, red flags, indices, and recommendations.",
+        "confidence": 0.82,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-007",
+        "source_observation_id": "INT-007-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-007-OBS-02",
+      "label": "Focused on usefulness to faculty decision-making rather than a polished archive.",
+      "properties": {
+        "confidence": 0.76,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-007-OBS-02",
+      "label": "Focused on usefulness to faculty decision-making rather than a polished archive.",
+      "properties": {
+        "asset_id": "MEM-INT-007-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Focused on usefulness to faculty decision-making rather than a polished archive.",
+        "confidence": 0.76,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-007",
+        "source_observation_id": "INT-007-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-008-OBS-01",
+      "label": "Named benchmarkable quality dimensions such as memory reliability and eval performance.",
+      "properties": {
+        "confidence": 0.75,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-008-OBS-01",
+      "label": "Named benchmarkable quality dimensions such as memory reliability and eval performance.",
+      "properties": {
+        "asset_id": "MEM-INT-008-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Named benchmarkable quality dimensions such as memory reliability and eval performance.",
+        "confidence": 0.75,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-008",
+        "source_observation_id": "INT-008-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-008-OBS-02",
+      "label": "Needs a sharper business metric for Link School adoption beyond technical correctness.",
+      "properties": {
+        "confidence": 0.68,
+        "domain": "mission_fit",
+        "polarity": "missing",
+        "risk_flag": "missing_core_evidence",
+        "strength": 2
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-008-OBS-02",
+      "label": "Needs a sharper business metric for Link School adoption beyond technical correctness.",
+      "properties": {
+        "asset_id": "MEM-INT-008-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Needs a sharper business metric for Link School adoption beyond technical correctness.",
+        "confidence": 0.68,
+        "domain": "mission_fit",
+        "polarity": "missing",
+        "risk_flag": "missing_core_evidence",
+        "source_interview_id": "INT-008",
+        "source_observation_id": "INT-008-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-009-OBS-01",
+      "label": "Converted a vague interviewing workflow into datasets, rubrics, memory databases, evals, and benchmarks.",
+      "properties": {
+        "confidence": 0.88,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-009-OBS-01",
+      "label": "Converted a vague interviewing workflow into datasets, rubrics, memory databases, evals, and benchmarks.",
+      "properties": {
+        "asset_id": "MEM-INT-009-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Converted a vague interviewing workflow into datasets, rubrics, memory databases, evals, and benchmarks.",
+        "confidence": 0.88,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-009",
+        "source_observation_id": "INT-009-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-009-OBS-02",
+      "label": "Used critique to sharpen implementation requirements instead of defending the first draft.",
+      "properties": {
+        "confidence": 0.82,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-009-OBS-02",
+      "label": "Used critique to sharpen implementation requirements instead of defending the first draft.",
+      "properties": {
+        "asset_id": "MEM-INT-009-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Used critique to sharpen implementation requirements instead of defending the first draft.",
+        "confidence": 0.82,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-009",
+        "source_observation_id": "INT-009-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-010-OBS-01",
+      "label": "Fast critique could overwhelm collaborators if not paired with explicit shared framing.",
+      "properties": {
+        "confidence": 0.73,
+        "domain": "collaboration_maturity",
+        "polarity": "red",
+        "risk_flag": "weak_listening_signal",
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-010-OBS-01",
+      "label": "Fast critique could overwhelm collaborators if not paired with explicit shared framing.",
+      "properties": {
+        "asset_id": "MEM-INT-010-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Fast critique could overwhelm collaborators if not paired with explicit shared framing.",
+        "confidence": 0.73,
+        "domain": "collaboration_maturity",
+        "polarity": "red",
+        "risk_flag": "weak_listening_signal",
+        "source_interview_id": "INT-010",
+        "source_observation_id": "INT-010-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-010-OBS-02",
+      "label": "Creates momentum by naming what matters most and moving the group toward it.",
+      "properties": {
+        "confidence": 0.81,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-010-OBS-02",
+      "label": "Creates momentum by naming what matters most and moving the group toward it.",
+      "properties": {
+        "asset_id": "MEM-INT-010-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Creates momentum by naming what matters most and moving the group toward it.",
+        "confidence": 0.81,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-010",
+        "source_observation_id": "INT-010-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-011-OBS-01",
+      "label": "Asked to build the capability layer itself: memory, evals, benchmarks, and mock end-to-end workflow.",
+      "properties": {
+        "confidence": 0.89,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-011-OBS-01",
+      "label": "Asked to build the capability layer itself: memory, evals, benchmarks, and mock end-to-end workflow.",
+      "properties": {
+        "asset_id": "MEM-INT-011-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Asked to build the capability layer itself: memory, evals, benchmarks, and mock end-to-end workflow.",
+        "confidence": 0.89,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-011",
+        "source_observation_id": "INT-011-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-011-OBS-02",
+      "label": "Recognized that deep research should enrich and validate after local requirements are clearer.",
+      "properties": {
+        "confidence": 0.8,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-011-OBS-02",
+      "label": "Recognized that deep research should enrich and validate after local requirements are clearer.",
+      "properties": {
+        "asset_id": "MEM-INT-011-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Recognized that deep research should enrich and validate after local requirements are clearer.",
+        "confidence": 0.8,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-011",
+        "source_observation_id": "INT-011-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-012-OBS-01",
+      "label": "Accepted holistic recommendations while preserving human final decision responsibility.",
+      "properties": {
+        "confidence": 0.81,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-012-OBS-01",
+      "label": "Accepted holistic recommendations while preserving human final decision responsibility.",
+      "properties": {
+        "asset_id": "MEM-INT-012-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Accepted holistic recommendations while preserving human final decision responsibility.",
+        "confidence": 0.81,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-012",
+        "source_observation_id": "INT-012-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-012-OBS-02",
+      "label": "Expressed the difference between recommendation and automation in plain language.",
+      "properties": {
+        "confidence": 0.78,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-012-OBS-02",
+      "label": "Expressed the difference between recommendation and automation in plain language.",
+      "properties": {
+        "asset_id": "MEM-INT-012-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Expressed the difference between recommendation and automation in plain language.",
+        "confidence": 0.78,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-012",
+        "source_observation_id": "INT-012-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-013-OBS-01",
+      "label": "Wanted benchmarks that test whether the system is reliable, not just plausible.",
+      "properties": {
+        "confidence": 0.79,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-013-OBS-01",
+      "label": "Wanted benchmarks that test whether the system is reliable, not just plausible.",
+      "properties": {
+        "asset_id": "MEM-INT-013-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Wanted benchmarks that test whether the system is reliable, not just plausible.",
+        "confidence": 0.79,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-013",
+        "source_observation_id": "INT-013-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-013-OBS-02",
+      "label": "Needs explicit validation boundaries before using composite indices in real selection.",
+      "properties": {
+        "confidence": 0.64,
+        "domain": "ethical_judgment",
+        "polarity": "missing",
+        "risk_flag": "missing_core_evidence",
+        "strength": 2
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-013-OBS-02",
+      "label": "Needs explicit validation boundaries before using composite indices in real selection.",
+      "properties": {
+        "asset_id": "MEM-INT-013-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Needs explicit validation boundaries before using composite indices in real selection.",
+        "confidence": 0.64,
+        "domain": "ethical_judgment",
+        "polarity": "missing",
+        "risk_flag": "missing_core_evidence",
+        "source_interview_id": "INT-013",
+        "source_observation_id": "INT-013-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-014-OBS-01",
+      "label": "Clearly named the priority shift: memory quality, evals, benchmarks, reliability.",
+      "properties": {
+        "confidence": 0.74,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-014-OBS-01",
+      "label": "Clearly named the priority shift: memory quality, evals, benchmarks, reliability.",
+      "properties": {
+        "asset_id": "MEM-INT-014-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Clearly named the priority shift: memory quality, evals, benchmarks, reliability.",
+        "confidence": 0.74,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-014",
+        "source_observation_id": "INT-014-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-014-OBS-02",
+      "label": "May need to translate technical architecture into faculty-friendly language more consistently.",
+      "properties": {
+        "confidence": 0.67,
+        "domain": "communication_clarity",
+        "polarity": "red",
+        "risk_flag": "weak_listening_signal",
+        "strength": 2
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-014-OBS-02",
+      "label": "May need to translate technical architecture into faculty-friendly language more consistently.",
+      "properties": {
+        "asset_id": "MEM-INT-014-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "May need to translate technical architecture into faculty-friendly language more consistently.",
+        "confidence": 0.67,
+        "domain": "communication_clarity",
+        "polarity": "red",
+        "risk_flag": "weak_listening_signal",
+        "source_interview_id": "INT-014",
+        "source_observation_id": "INT-014-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-015-OBS-01",
+      "label": "Understands that the school's advantage could come from compounding faculty judgment.",
+      "properties": {
+        "confidence": 0.86,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-015-OBS-01",
+      "label": "Understands that the school's advantage could come from compounding faculty judgment.",
+      "properties": {
+        "asset_id": "MEM-INT-015-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Understands that the school's advantage could come from compounding faculty judgment.",
+        "confidence": 0.86,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-015",
+        "source_observation_id": "INT-015-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-015-OBS-02",
+      "label": "Can identify a strategic institutional bottleneck and turn it into an operating system.",
+      "properties": {
+        "confidence": 0.84,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-015-OBS-02",
+      "label": "Can identify a strategic institutional bottleneck and turn it into an operating system.",
+      "properties": {
+        "asset_id": "MEM-INT-015-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Can identify a strategic institutional bottleneck and turn it into an operating system.",
+        "confidence": 0.84,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-015",
+        "source_observation_id": "INT-015-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-016-OBS-01",
+      "label": "Asked to mock the entire business school process instead of waiting for perfect real data.",
+      "properties": {
+        "confidence": 0.9,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-016-OBS-01",
+      "label": "Asked to mock the entire business school process instead of waiting for perfect real data.",
+      "properties": {
+        "asset_id": "MEM-INT-016-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Asked to mock the entire business school process instead of waiting for perfect real data.",
+        "confidence": 0.9,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-016",
+        "source_observation_id": "INT-016-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-016-OBS-02",
+      "label": "Defined enough structure for immediate implementation: rubric, memory database, evals, and end-to-end run.",
+      "properties": {
+        "confidence": 0.81,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-016-OBS-02",
+      "label": "Defined enough structure for immediate implementation: rubric, memory database, evals, and end-to-end run.",
+      "properties": {
+        "asset_id": "MEM-INT-016-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Defined enough structure for immediate implementation: rubric, memory database, evals, and end-to-end run.",
+        "confidence": 0.81,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-016",
+        "source_observation_id": "INT-016-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-017-OBS-01",
+      "label": "Placed deep research after local requirement discovery so it can validate and enrich rather than dominate.",
+      "properties": {
+        "confidence": 0.88,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-017-OBS-01",
+      "label": "Placed deep research after local requirement discovery so it can validate and enrich rather than dominate.",
+      "properties": {
+        "asset_id": "MEM-INT-017-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Placed deep research after local requirement discovery so it can validate and enrich rather than dominate.",
+        "confidence": 0.88,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-017",
+        "source_observation_id": "INT-017-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-017-OBS-02",
+      "label": "Requested evals and benchmarks as first-class artifacts.",
+      "properties": {
+        "confidence": 0.8,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-017-OBS-02",
+      "label": "Requested evals and benchmarks as first-class artifacts.",
+      "properties": {
+        "asset_id": "MEM-INT-017-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Requested evals and benchmarks as first-class artifacts.",
+        "confidence": 0.8,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-017",
+        "source_observation_id": "INT-017-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-018-OBS-01",
+      "label": "Engages directly with feedback and changes course when the critique is valid.",
+      "properties": {
+        "confidence": 0.71,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-018-OBS-01",
+      "label": "Engages directly with feedback and changes course when the critique is valid.",
+      "properties": {
+        "asset_id": "MEM-INT-018-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Engages directly with feedback and changes course when the critique is valid.",
+        "confidence": 0.71,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-018",
+        "source_observation_id": "INT-018-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-018-OBS-02",
+      "label": "May need explicit cohort norms around pacing, listening, and shared ownership.",
+      "properties": {
+        "confidence": 0.66,
+        "domain": "collaboration_maturity",
+        "polarity": "red",
+        "risk_flag": "poor_team_maturity",
+        "strength": 2
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-018-OBS-02",
+      "label": "May need explicit cohort norms around pacing, listening, and shared ownership.",
+      "properties": {
+        "asset_id": "MEM-INT-018-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "May need explicit cohort norms around pacing, listening, and shared ownership.",
+        "confidence": 0.66,
+        "domain": "collaboration_maturity",
+        "polarity": "red",
+        "risk_flag": "poor_team_maturity",
+        "source_interview_id": "INT-018",
+        "source_observation_id": "INT-018-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-019-OBS-01",
+      "label": "Recognizes that human final authority and auditability are the core boundary.",
+      "properties": {
+        "confidence": 0.82,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-019-OBS-01",
+      "label": "Recognizes that human final authority and auditability are the core boundary.",
+      "properties": {
+        "asset_id": "MEM-INT-019-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Recognizes that human final authority and auditability are the core boundary.",
+        "confidence": 0.82,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-019",
+        "source_observation_id": "INT-019-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-019-OBS-02",
+      "label": "Pushed past excessive caution toward a more useful recommendation product.",
+      "properties": {
+        "confidence": 0.74,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-019-OBS-02",
+      "label": "Pushed past excessive caution toward a more useful recommendation product.",
+      "properties": {
+        "asset_id": "MEM-INT-019-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Pushed past excessive caution toward a more useful recommendation product.",
+        "confidence": 0.74,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-019",
+        "source_observation_id": "INT-019-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-020-OBS-01",
+      "label": "Frames the work as helping faculty avoid starting from scratch.",
+      "properties": {
+        "confidence": 0.73,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-020-OBS-01",
+      "label": "Frames the work as helping faculty avoid starting from scratch.",
+      "properties": {
+        "asset_id": "MEM-INT-020-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Frames the work as helping faculty avoid starting from scratch.",
+        "confidence": 0.73,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-020",
+        "source_observation_id": "INT-020-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-020-OBS-02",
+      "label": "Needs clearer buyer-facing value narrative after the technical mock works.",
+      "properties": {
+        "confidence": 0.62,
+        "domain": "communication_clarity",
+        "polarity": "missing",
+        "risk_flag": "missing_core_evidence",
+        "strength": 2
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-020-OBS-02",
+      "label": "Needs clearer buyer-facing value narrative after the technical mock works.",
+      "properties": {
+        "asset_id": "MEM-INT-020-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Needs clearer buyer-facing value narrative after the technical mock works.",
+        "confidence": 0.62,
+        "domain": "communication_clarity",
+        "polarity": "missing",
+        "risk_flag": "missing_core_evidence",
+        "source_interview_id": "INT-020",
+        "source_observation_id": "INT-020-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-021-OBS-01",
+      "label": "Asked to build mock databases and run the process end to end.",
+      "properties": {
+        "confidence": 0.87,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-021-OBS-01",
+      "label": "Asked to build mock databases and run the process end to end.",
+      "properties": {
+        "asset_id": "MEM-INT-021-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Asked to build mock databases and run the process end to end.",
+        "confidence": 0.87,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-021",
+        "source_observation_id": "INT-021-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-021-OBS-02",
+      "label": "Set a concrete next milestone for the team rather than leaving the idea abstract.",
+      "properties": {
+        "confidence": 0.79,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-021-OBS-02",
+      "label": "Set a concrete next milestone for the team rather than leaving the idea abstract.",
+      "properties": {
+        "asset_id": "MEM-INT-021-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Set a concrete next milestone for the team rather than leaving the idea abstract.",
+        "confidence": 0.79,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-021",
+        "source_observation_id": "INT-021-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-022-OBS-01",
+      "label": "Understands that reusable interview memory can become a school-specific capability.",
+      "properties": {
+        "confidence": 0.79,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-022-OBS-01",
+      "label": "Understands that reusable interview memory can become a school-specific capability.",
+      "properties": {
+        "asset_id": "MEM-INT-022-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Understands that reusable interview memory can become a school-specific capability.",
+        "confidence": 0.79,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-022",
+        "source_observation_id": "INT-022-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-022-OBS-02",
+      "label": "Recognizes that the product should not be another reading surface, but an active evaluation system.",
+      "properties": {
+        "confidence": 0.82,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-022-OBS-02",
+      "label": "Recognizes that the product should not be another reading surface, but an active evaluation system.",
+      "properties": {
+        "asset_id": "MEM-INT-022-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Recognizes that the product should not be another reading surface, but an active evaluation system.",
+        "confidence": 0.82,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-022",
+        "source_observation_id": "INT-022-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-023-OBS-01",
+      "label": "Separated local mock evals from later deep research validation.",
+      "properties": {
+        "confidence": 0.8,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-023-OBS-01",
+      "label": "Separated local mock evals from later deep research validation.",
+      "properties": {
+        "asset_id": "MEM-INT-023-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Separated local mock evals from later deep research validation.",
+        "confidence": 0.8,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-023",
+        "source_observation_id": "INT-023-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-023-OBS-02",
+      "label": "Did not overclaim that composite indices are validated admissions science.",
+      "properties": {
+        "confidence": 0.75,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-023-OBS-02",
+      "label": "Did not overclaim that composite indices are validated admissions science.",
+      "properties": {
+        "asset_id": "MEM-INT-023-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Did not overclaim that composite indices are validated admissions science.",
+        "confidence": 0.75,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-023",
+        "source_observation_id": "INT-023-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-024-OBS-01",
+      "label": "Repeatedly turns conceptual requirements into buildable systems with tests.",
+      "properties": {
+        "confidence": 0.88,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-024-OBS-01",
+      "label": "Repeatedly turns conceptual requirements into buildable systems with tests.",
+      "properties": {
+        "asset_id": "MEM-INT-024-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Repeatedly turns conceptual requirements into buildable systems with tests.",
+        "confidence": 0.88,
+        "domain": "entrepreneurial_builder",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-024",
+        "source_observation_id": "INT-024-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-024-OBS-02",
+      "label": "Willing to call out when the current work is optimizing the wrong layer.",
+      "properties": {
+        "confidence": 0.79,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-024-OBS-02",
+      "label": "Willing to call out when the current work is optimizing the wrong layer.",
+      "properties": {
+        "asset_id": "MEM-INT-024-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Willing to call out when the current work is optimizing the wrong layer.",
+        "confidence": 0.79,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-024",
+        "source_observation_id": "INT-024-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-025-OBS-01",
+      "label": "Accepted that requirements need to be nailed down before the plan is trusted.",
+      "properties": {
+        "confidence": 0.77,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-025-OBS-01",
+      "label": "Accepted that requirements need to be nailed down before the plan is trusted.",
+      "properties": {
+        "asset_id": "MEM-INT-025-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Accepted that requirements need to be nailed down before the plan is trusted.",
+        "confidence": 0.77,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-025",
+        "source_observation_id": "INT-025-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-025-OBS-02",
+      "label": "Uses critique as fuel for a better system rather than as a threat.",
+      "properties": {
+        "confidence": 0.78,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-025-OBS-02",
+      "label": "Uses critique as fuel for a better system rather than as a threat.",
+      "properties": {
+        "asset_id": "MEM-INT-025-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Uses critique as fuel for a better system rather than as a threat.",
+        "confidence": 0.78,
+        "domain": "learning_velocity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-025",
+        "source_observation_id": "INT-025-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-026-OBS-01",
+      "label": "Demanded mock artifacts that can be inspected and rerun.",
+      "properties": {
+        "confidence": 0.8,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-026-OBS-01",
+      "label": "Demanded mock artifacts that can be inspected and rerun.",
+      "properties": {
+        "asset_id": "MEM-INT-026-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Demanded mock artifacts that can be inspected and rerun.",
+        "confidence": 0.8,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-026",
+        "source_observation_id": "INT-026-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-026-OBS-02",
+      "label": "The desired output is clear enough to implement: evidence, domains, composite index, recommendation.",
+      "properties": {
+        "confidence": 0.72,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-026-OBS-02",
+      "label": "The desired output is clear enough to implement: evidence, domains, composite index, recommendation.",
+      "properties": {
+        "asset_id": "MEM-INT-026-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "The desired output is clear enough to implement: evidence, domains, composite index, recommendation.",
+        "confidence": 0.72,
+        "domain": "communication_clarity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-026",
+        "source_observation_id": "INT-026-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-027-OBS-01",
+      "label": "The final boundary is useful recommendation plus transparent evidence, not automation.",
+      "properties": {
+        "confidence": 0.81,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-027-OBS-01",
+      "label": "The final boundary is useful recommendation plus transparent evidence, not automation.",
+      "properties": {
+        "asset_id": "MEM-INT-027-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "The final boundary is useful recommendation plus transparent evidence, not automation.",
+        "confidence": 0.81,
+        "domain": "ethical_judgment",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-027",
+        "source_observation_id": "INT-027-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-027-OBS-02",
+      "label": "Shows interest in making faculty decisions more reliable, not replacing faculty.",
+      "properties": {
+        "confidence": 0.72,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-027-OBS-02",
+      "label": "Shows interest in making faculty decisions more reliable, not replacing faculty.",
+      "properties": {
+        "asset_id": "MEM-INT-027-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Shows interest in making faculty decisions more reliable, not replacing faculty.",
+        "confidence": 0.72,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-027",
+        "source_observation_id": "INT-027-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-028-OBS-01",
+      "label": "Pushes peers toward higher standards and more concrete proof.",
+      "properties": {
+        "confidence": 0.78,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 4
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-028-OBS-01",
+      "label": "Pushes peers toward higher standards and more concrete proof.",
+      "properties": {
+        "asset_id": "MEM-INT-028-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Pushes peers toward higher standards and more concrete proof.",
+        "confidence": 0.78,
+        "domain": "leadership_initiative",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-028",
+        "source_observation_id": "INT-028-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-028-OBS-02",
+      "label": "Need more evidence on how the candidate behaves in slower group settings.",
+      "properties": {
+        "confidence": 0.61,
+        "domain": "collaboration_maturity",
+        "polarity": "missing",
+        "risk_flag": "missing_core_evidence",
+        "strength": 2
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-028-OBS-02",
+      "label": "Need more evidence on how the candidate behaves in slower group settings.",
+      "properties": {
+        "asset_id": "MEM-INT-028-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Need more evidence on how the candidate behaves in slower group settings.",
+        "confidence": 0.61,
+        "domain": "collaboration_maturity",
+        "polarity": "missing",
+        "risk_flag": "missing_core_evidence",
+        "source_interview_id": "INT-028",
+        "source_observation_id": "INT-028-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-029-OBS-01",
+      "label": "Can define and pressure-test an ambitious capstone-like system quickly.",
+      "properties": {
+        "confidence": 0.86,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-029-OBS-01",
+      "label": "Can define and pressure-test an ambitious capstone-like system quickly.",
+      "properties": {
+        "asset_id": "MEM-INT-029-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Can define and pressure-test an ambitious capstone-like system quickly.",
+        "confidence": 0.86,
+        "domain": "execution_evidence",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-029",
+        "source_observation_id": "INT-029-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-029-OBS-02",
+      "label": "Would benefit from a faculty sponsor who helps sequence ambition into milestones.",
+      "properties": {
+        "confidence": 0.7,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-029-OBS-02",
+      "label": "Would benefit from a faculty sponsor who helps sequence ambition into milestones.",
+      "properties": {
+        "asset_id": "MEM-INT-029-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Would benefit from a faculty sponsor who helps sequence ambition into milestones.",
+        "confidence": 0.7,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-029",
+        "source_observation_id": "INT-029-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-030-OBS-01",
+      "label": "Candidate fits a school that values building, reflection, and practical AI capability design.",
+      "properties": {
+        "confidence": 0.84,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 5
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-030-OBS-01",
+      "label": "Candidate fits a school that values building, reflection, and practical AI capability design.",
+      "properties": {
+        "asset_id": "MEM-INT-030-OBS-01",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Candidate fits a school that values building, reflection, and practical AI capability design.",
+        "confidence": 0.84,
+        "domain": "mission_fit",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-030",
+        "source_observation_id": "INT-030-OBS-01",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    },
+    {
+      "id": "INT-030-OBS-02",
+      "label": "Risks are real but coachable: pacing, translation, and shared ownership.",
+      "properties": {
+        "confidence": 0.72,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "strength": 3
+      },
+      "type": "observation"
+    },
+    {
+      "id": "MEM-INT-030-OBS-02",
+      "label": "Risks are real but coachable: pacing, translation, and shared ownership.",
+      "properties": {
+        "asset_id": "MEM-INT-030-OBS-02",
+        "candidate_id": "CAND-JQ-001",
+        "claim": "Risks are real but coachable: pacing, translation, and shared ownership.",
+        "confidence": 0.72,
+        "domain": "collaboration_maturity",
+        "polarity": "green",
+        "risk_flag": null,
+        "source_interview_id": "INT-030",
+        "source_observation_id": "INT-030-OBS-02",
+        "status": "approved_mock",
+        "type": "canonical_memory_asset"
+      },
+      "type": "canonical_memory_asset"
+    }
+  ],
+  "schema_version": "mock_gbrain_memory.v1"
+}

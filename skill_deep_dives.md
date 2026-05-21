@@ -2,72 +2,60 @@
 
 ## Grill Me
 
-Use when the plan feels plausible but under-specified.
+Purpose: stress-test a plan before execution by walking the decision tree one branch at a time.
 
-Why it matters:
+- Trigger: use when a plan feels plausible but under-specified, when a pilot choice has tradeoffs, or before an external commitment.
+- Mechanics: the agent asks one hard question at a time. Each answer resolves a dependency before the next branch opens.
+- Output: hidden assumptions, decision branches, tradeoffs, recommended answer, and remaining risks.
+- Example: "What would make this workflow unsafe even if the generated artifact looks polished?"
 
-- forces hidden assumptions into the open
-- walks the decision tree one branch at a time
-- turns vague confidence into explicit tradeoffs
-- creates better specs before expensive execution
+## Test-Driven Development
 
-Adopt it before:
+Purpose: define behavior before implementation, then prove the system can catch failure.
 
-- pilot selection
-- external communication
-- spec writing
-- major tool or data access decisions
+- Red: write one failing test.
+- Green: write the smallest change that passes.
+- Refactor: improve structure while tests stay green.
+- Institutional translation: write one artifact check, watch a draft fail it, revise until the artifact passes.
 
 ## Spec-Driven Build
 
-Use when a workflow will be repeated, delegated, taught, or reviewed.
+Purpose: turn intent into an operating contract before tools start acting.
 
-Write:
+A strong spec names owner, trigger, allowed inputs, kept-out inputs, required artifacts, tool boundary, review gate, success metric, and stop criteria.
 
-- owner
-- trigger
-- allowed inputs
-- prohibited inputs
-- required artifacts
-- tool boundary
-- stop criteria
-- review gate
+## Write A Skill
 
-Adoption rule:
+Purpose: package a repeatable workflow so future sessions inherit the procedure.
 
-Every pilot starts with a one-page capability spec.
+A useful skill contains a trigger, required inputs, kept-out inputs, procedure, output format, human review checklist, common failure modes, and one example invocation.
 
-## Test-Driven Checks
+## Handoff And Memory
 
-Use before asking AI to produce the main artifact.
+Purpose: let work survive across sessions, people, and weeks.
 
-Write checks for:
+Capture objective, current state, decisions, artifacts, blockers, evidence, next action, and suggested skills for the next run. Store approved context and corrections, not raw sensitive records.
 
-- factual support
-- source quality
-- privacy and safety
-- usefulness
-- tone
-- human approval
+## GBrain
 
-Adoption rule:
+Purpose: a governed memory and knowledge layer for agent work.
 
-Ask the model to evaluate its draft against the checks, then have a human approve, revise, ask, or stop.
+Useful memory includes approved decisions, reusable context, source maps, corrections, workflow lessons, and known failure modes. Memory needs read/write policy, source trust, retention rules, and secret/data boundaries.
 
-## Handoff + Memory
+## GStack
 
-Use when work spans people, sessions, or weeks.
+Purpose: a practical stack of skills and guardrails for agent work across browsing, planning, debugging, review, QA, and memory sync.
 
-Capture:
+Useful patterns include browse for evidence, investigate for root cause, guard/careful for safety, review for pre-landing critique, QA for user-flow testing, and autoplan for review gauntlets.
 
-- goal
-- state
-- decisions
-- blockers
-- evidence
-- next action
-- memory update
+## Superpowers Method
 
-Adoption rule:
+Purpose: disciplined agent collaboration: brainstorm, plan, implement, verify, review, and finish.
 
-Every pilot ends with a handoff and only approved context goes into memory.
+The workflow translates well to institutional pilots: design the workflow, write the plan, run one safe test case, verify the artifact, then decide continue/revise/stop.
+
+## OpenClaw And Hermes-Style Orchestration
+
+Purpose: connect agent sessions, memory, tools, and channels when a workflow outgrows a single chat or local builder session.
+
+Use orchestration after the workflow has a clear spec, review gate, and data boundary. A simple pattern is intake request -> briefing session -> teaching translation session -> governance review -> human approval -> handoff.

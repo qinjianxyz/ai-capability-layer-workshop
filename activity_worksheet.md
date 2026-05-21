@@ -1,75 +1,58 @@
 # Activity Worksheet
 
-## 1. Name The Capability
+## 1. Capability Sentence
 
-I wish our team could ________ with better speed, quality, consistency, or learning.
+I wish our team could produce __________________ from __________________ for __________________ with __________________ review.
 
-Artifact:
+Artifact: __________________
+Data boundary: public/synthetic / internal low-risk / confidential / keep out
 
-Data risk:
+## 2. First Architecture
 
-Human review gate:
+- Inputs:
+- Context needed:
+- Tools needed:
+- Output artifact:
+- Human reviewer:
 
-## 2. Artifact Chain
+## 3. Output Review
 
-Goal:
+- Facts:
+- Assumptions:
+- Unknowns:
+- Risks:
+- Decision: use / revise / ask / stop
 
-Audience:
+## 4. Spec Skeleton
 
-Artifacts:
+- Owner and audience:
+- Trigger:
+- Allowed inputs:
+- Inputs to keep out:
+- Required artifacts:
+- Stop criteria:
 
-Human decision:
+## 5. Five Checks
 
-30-day success measure:
+1. Quality check:
+2. Source check:
+3. Safety check:
+4. Decision check:
+5. Review check:
 
-## 3. Spec Skeleton
+## 6. Pilot Scoring
 
-Allowed inputs:
+Score 1 to 5.
 
-Prohibited inputs:
+| Criterion | Score | Note |
+| --- | --- | --- |
+| Value | | |
+| Repeatability | | |
+| Data readiness | | |
+| Risk control | | |
+| Teaching relevance | | |
 
-Required outputs:
-
-Tool boundary:
-
-Stop criteria:
-
-## 4. Five Checks
-
-Quality check:
-
-Source check:
-
-Safety check:
-
-Usefulness check:
-
-Human review check:
-
-## 5. Build Or Simulate One Run
-
-Prompt or run plan:
-
-Facts:
-
-Assumptions:
-
-Unknowns:
-
-Risks:
-
-Decision: use / revise / ask / stop
-
-## Pilot Shape
-
-Workflow:
-
+Pilot candidate:
 Owner:
-
-First artifact:
-
-Safe data boundary:
-
-Review gate:
-
-30-day decision:
+30-day success measure:
+Stop criterion:

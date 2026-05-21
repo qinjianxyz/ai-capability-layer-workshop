@@ -1,94 +1,51 @@
 # Prompt Pack
 
-## Capability Design Prompt
+## Capability Spec Prompt
 
 ```text
-Help me design a supervised AI capability.
-
-Workflow:
+Help me design a supervised AI capability for this workflow:
 [describe workflow]
 
 Return:
 1. capability name
 2. owner and audience
-3. artifact chain
+3. trigger
 4. allowed inputs
-5. prohibited inputs
-6. human review gate
-7. 30-day success measure
+5. inputs to keep out
+6. required artifacts
+7. tool boundary
+8. human review gate
+9. stop criteria
+10. 30-day success measure
+
+Use concrete language. Separate facts, assumptions, and open questions.
 ```
 
-## Spec + Checks Prompt
+## Five Checks Prompt
 
 ```text
-Draft a capability spec and checks before output.
+For the capability below, write five acceptance checks before generating output.
 
 Capability:
-[paste]
+[paste spec]
 
-Include:
-- allowed inputs
-- prohibited inputs
-- required outputs
-- tool boundary
-- stop criteria
-- quality/source/safety/usefulness/review checks
+Checks must cover factual support, source quality, privacy/data boundary, usefulness for the intended audience, and human approval. Return the checks as a rubric with Pass / Needs revision / Stop.
 ```
 
-## Artifact Generation Prompt
+## Artifact Chain Prompt
 
 ```text
-You are helping design a supervised AI workflow.
+Using the workflow spec, produce four draft artifacts:
+1. partnership briefing memo
+2. 30-minute teaching mini-case
+3. operations checklist with owners and deadlines
+4. governance note with allowed, caution, and keep-out data classes
 
-Use only the provided or synthetic context.
-Do not use private records.
-Do not send externally.
-
-Goal:
-[paste]
-
-Spec:
-[paste]
-
-Checks:
-[paste]
-
-Produce:
-1. primary artifact
-2. assumptions
-3. unknowns
-4. risks
-5. required human review
-```
-
-## Critique Prompt
-
-```text
-Critique this AI-generated artifact.
-
-Artifact:
-[paste]
-
-Mark:
-1. supported facts
-2. assumptions
-3. unknowns
-4. risks
-5. required human approvals
-6. decision: use, revise, ask, or stop
+For each artifact, separate facts, assumptions, unknowns, and required human review.
 ```
 
 ## Skill Packaging Prompt
 
 ```text
-Package this workflow as a reusable skill.
-
-Include:
-- when to use
-- required inputs
-- prohibited inputs
-- steps
-- output format
-- human review checklist
-- common failure modes
+Package this workflow as a reusable skill. Include when to use, required inputs, inputs to keep out, step-by-step procedure, output format, human review checklist, common failure modes, and one example invocation.
 ```

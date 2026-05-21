@@ -1,45 +1,27 @@
 # AI Capability Layer Cheatsheet
 
-A capability is useful when it is:
-
-- repeatable enough to teach
-- reviewable enough to trust
-- bounded enough to govern
-- instrumented enough to improve
-
 Core pattern:
 
 ```text
 goal -> spec -> checks -> context -> tools -> artifacts -> review -> memory -> skill
 ```
 
-## Capability Spec
+A workflow is ready for a first AI-assisted pilot when it has:
 
-- owner and audience
-- trigger and goal
-- allowed inputs
-- prohibited inputs
-- required artifacts
-- tool boundary
-- data boundary
-- checks
-- review gate
-- stop criteria
+- A named artifact: memo, checklist, rubric, teaching case, source map, handoff, or decision packet.
+- A trigger: what starts the work.
+- Allowed inputs and kept-out inputs.
+- A source policy and example of good output.
+- Five acceptance checks.
+- A named human review gate.
+- A 30-day success measure and stop criterion.
 
-## Review Gate
+## Fast Review Gate
 
-Ask:
+Before using any generated artifact, mark:
 
-- What facts are supported?
-- What assumptions were inferred?
-- What unknowns remain?
-- What risks exist?
-- Who approves the artifact?
-- Should we use, revise, ask, or stop?
-
-## 30-Day Pilot
-
-1. Choose one workflow, owner, data boundary, and expected artifact chain.
-2. Prototype the prompt, spec, checks, and sample outputs.
-3. Test on safe cases and collect review notes.
-4. Decide whether to continue, narrow, expand, or stop.
+1. Facts: supported by provided context or cited source.
+2. Assumptions: plausible but inferred.
+3. Unknowns: require a person or trusted source.
+4. Risks: privacy, tone, authority, external impact.
+5. Decision: use, revise, ask, or stop.

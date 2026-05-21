@@ -1,53 +1,39 @@
 # 30-Day Pilot Template
 
-## Workflow
+## Pilot Summary
 
-Name:
+- Workflow:
+- Owner:
+- Audience:
+- Trigger:
+- Artifact chain:
+- Allowed inputs:
+- Inputs to keep out:
+- Tool path:
+- Human review gate:
+- Success measure:
+- Stop criterion:
 
-Owner:
+## Week 1: Choose And Bound
 
-Audience:
+Choose workflow, owner, data boundary, expected artifact chain, and review gate.
 
-## Capability Goal
+Evidence: one-page capability spec.
 
-What should the team be able to do better?
+## Week 2: Prototype
 
-## Artifact Chain
+Build prompt, sample context, checklist, reusable skill, and one safe sample output.
 
-1.
-2.
-3.
+Evidence: workflow kit plus first reviewed artifact.
 
-## Data Boundary
+## Week 3: Run Safe Cases
 
-Allowed inputs:
+Run three to five safe cases. Track revisions, reviewer time, failure modes, and usefulness.
 
-Prohibited inputs:
+Evidence: review log and updated checks.
 
-## Tools
+## Week 4: Decide
 
-Canvas / web chat / builder agent / local model / orchestration:
+Decide continue, narrow, expand, or stop. Package learning into memory and skill updates.
 
-## Checks
-
-Quality:
-
-Source:
-
-Safety:
-
-Usefulness:
-
-Review:
-
-## Human Review Gate
-
-Who approves the artifact before it matters?
-
-## Success Measure
-
-What would make the pilot worth continuing after 30 days?
-
-## Stop Criteria
-
-When should the pilot be narrowed or stopped?
+Evidence: pilot decision memo.

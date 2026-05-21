@@ -1,106 +1,29 @@
-# AI Capability Layer Workshop
+# Practical AI Capability Layers Workshop Kit
 
-This repo contains a practical method for designing supervised AI-supported workflows.
+This repository contains a public, safe version of the method behind the workshop **Beyond ChatGPT: Building Practical Agentic Systems for Operations, Research, and Teaching**.
 
-The goal is to help teams turn real work into reusable capabilities:
+The core idea is simple: useful AI work comes from designing the workflow around the model. A reliable capability has a goal, spec, checks, context, tools, review, memory, and reusable skills.
 
 ```text
 goal -> spec -> checks -> context -> tools -> artifacts -> review -> memory -> skill
 ```
 
-## What Participants Build
+## What This Helps You Build
 
-- a workflow worth improving
-- a capability goal
-- an artifact chain
-- safe data boundaries
-- checks before output
-- a human review gate
-- a reusable skill trigger
-- a 30-day pilot shape
+- Operations workflows: partnership briefs, event prep packets, meeting-to-SOP drafts, internal FAQ updates.
+- Faculty workflows: teaching mini-cases, discussion questions, exercises, rubrics, course refreshes.
+- Research workflows: source maps, literature triage, synthesis memos, uncertainty registers.
+- Mentoring workflows: student project scopes, milestone plans, advisor review packets.
 
-## Core Ideas
+## How To Use The Kit
 
-### Spec-driven design
+1. Start with `cheatsheet.md`.
+2. Fill out `activity_worksheet.md` for one workflow.
+3. Use `prompt_pack.md` to create a workflow spec, checks, and first artifact.
+4. Use `live_build_workflow_kit.md` if you want to build files with Codex, Claude Code, Copilot, or another coding agent.
+5. Read `skill_deep_dives.md` to understand how reusable skills, TDD, memory, GStack, Superpowers, and orchestration fit together.
+6. Use `pilot_template.md` to shape a 30-day pilot.
 
-Define the operating contract before asking AI to produce important output:
+## Operating Standard
 
-- owner
-- trigger
-- allowed inputs
-- prohibited inputs
-- required artifacts
-- tool boundary
-- stop criteria
-- review gate
-
-### Test-driven thinking
-
-Write checks before output:
-
-- factual support
-- source quality
-- safety
-- usefulness
-- tone
-- human approval
-
-### Context engineering
-
-Design the information environment around the model:
-
-- source policy
-- approved examples
-- templates
-- constraints
-- retrieval rules
-- memory boundaries
-
-### Harness engineering
-
-Keep ambitious AI work from dissolving into chat history:
-
-- goal state
-- task state
-- receipts
-- evidence
-- blockers
-- stop gates
-
-### Skills and memory
-
-Turn strong runs into reusable procedures, then preserve approved context and corrections.
-
-## Workflow Examples
-
-### Operations
-
-- meeting notes -> SOP -> checklist -> owner review
-- partnership request -> fit memo -> risks -> next steps
-- event goal -> prep timeline -> stakeholder drafts -> checklist
-
-### Teaching
-
-- topic -> mini-case -> discussion questions -> student exercise
-- learning objective -> rubric draft -> edge cases -> faculty review
-- course module -> updated examples -> assignment variants
-
-### Research and mentoring
-
-- question -> source map -> synthesis memo -> uncertainty list
-- student goal -> option map -> prep plan -> advisor review
-- partner signal -> brief -> assumptions -> outreach draft
-
-## First Pilot Rule
-
-Start where AI prepares, structures, checks, drafts, or teaches with human review.
-
-Avoid first pilots where AI makes consequential decisions, sends externally, grades, admits, changes official records, or uses sensitive personal data without explicit institutional approval.
-
-## Files
-
-- `cheatsheet.md`: one-page capability layer summary
-- `activity_worksheet.md`: workshop worksheet
-- `prompt_pack.md`: reusable prompts
-- `skill_deep_dives.md`: practical skill patterns
-- `pilot_template.md`: 30-day pilot shape
+A first pilot should be useful, repeatable, safe to test, and easy to stop. Consequential action stays with a human reviewer.
